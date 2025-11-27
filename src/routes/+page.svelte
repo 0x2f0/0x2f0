@@ -1,5 +1,6 @@
 <script>
 	import { goto, preloadCode, preloadData } from '$app/navigation';
+	import FancyName from '$lib/components/fancy-name.svelte';
 	const handleMouseEnter = () => {
 		preloadCode('/blogs');
 		preloadData('/blogs');
@@ -7,16 +8,19 @@
 </script>
 
 <svelte:head>
-	<title>Saroj Regmi | Home</title>
+	<title>saroj_r | 0x2f0 Home</title>
 </svelte:head>
 
 <div class="flex h-screen flex-col justify-center gap-2.5 p-2.5 sm:p-20">
-	<small class="text-sm text-neutral-500 sm:text-xl dark:text-gray-300">Hey It's Me Saroj</small>
+	<small class="text-sm text-neutral-500 sm:text-xl dark:text-gray-300"
+		>Hey it's me <FancyName />
+	</small>
 	<ul
 		class="flex flex-col gap-1 text-left text-3xl text-neutral-800 sm:gap-2.5 sm:text-6xl dark:text-white"
 	>
 		<li>A developer for fun,</li>
 		<li>designer by needs,</li>
+    <!-- Should add a hover effect telling my contributions to each and every single one of these. -->
 		<li>Linux and Vim user by heart.</li>
 	</ul>
 

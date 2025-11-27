@@ -1,5 +1,6 @@
 import type { TBlogFrontMatter } from '$lib/types';
 import { basename } from 'path';
+import type { PageServerLoad } from './$types';
 
 type TBlog = {
 	fileName: string;
@@ -7,9 +8,10 @@ type TBlog = {
 	metadata: TBlogFrontMatter;
 };
 
-export const load = async () => {
+export const load: PageServerLoad = async ({ url: { searchParams } }) => {
 	const globResponse = import.meta.glob('./**/*.svx') ?? {};
 	const blogs: TBlog[] = [];
+	const tags: Set<string> = new Set();
 
 	for (let [blogFileName, fileModule] of Object.entries(globResponse)) {
 		const metadata = ((await fileModule()) as any).metadata as TBlogFrontMatter;
@@ -22,6 +24,17 @@ export const load = async () => {
 			slug: `/blogs/${basename(blogFileName.replace('\/+page.svx', ''))}`,
 			metadata
 		});
+
+		if (!metadata.tag) continue;
+
+		if (Array.isArray(metadata.tag)) {
+			metadata.tag?.forEach((tag) => {
+				tags.add(tag);
+			});
+			continue;
+		}
+
+		if (typeof metadata.tag === 'string') tags.add(metadata.tag);
 	}
 
 	blogs.sort((a, b) => {
@@ -38,7 +51,15 @@ export const load = async () => {
 		}
 	});
 
+	const filterTag = searchParams.get('tag');
+	tags.delete('clear');
+
+	if (!filterTag) return { blogs, tags };
+
 	return {
-		blogs
+		blogs: blogs.filter((blog) => blog.metadata.tag?.includes(filterTag.toLowerCase().trim())),
+		tags: tags.add('clear')
 	};
 };
+
+export const prerender = false;

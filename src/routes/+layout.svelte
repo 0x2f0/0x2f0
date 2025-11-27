@@ -1,6 +1,7 @@
 <script lang="ts">
 	let { children } = $props();
 	import '../app.css';
+  import "../code.css";
 
 	import posthog from 'posthog-js';
 	import { browser } from '$app/environment';

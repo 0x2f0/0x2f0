@@ -1,5 +1,5 @@
 import { mdsvex } from 'mdsvex';
-import adapter from '@sveltejs/adapter-static';
+import adapter from 'svelte-adapter-bun';
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 import mdsvexconfig from './mdsvex.config.ts';
 
@@ -7,10 +7,12 @@ import mdsvexconfig from './mdsvex.config.ts';
 const config = {
 	extensions: ['.svelte', ...(mdsvexconfig.extensions ?? [])],
 	kit: {
-		adapter: adapter(),
-    prerender: {
-      handleMissingId: 'ignore'
-    }
+		adapter: adapter({
+			strict: false
+		}),
+		prerender: {
+			handleMissingId: 'ignore'
+		}
 	},
 	preprocess: [mdsvex(mdsvexconfig), vitePreprocess()]
 };

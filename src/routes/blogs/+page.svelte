@@ -4,9 +4,11 @@
 	import { preloadCode, preloadData } from '$app/navigation';
 	import { prettyDate } from '$lib/utils/date';
 	import { cn } from '$lib/utils/tailwind';
+	import Tag from '$lib/components/tag.svelte';
 
 	const { data }: PageProps = $props();
-	const blogs = data.blogs;
+	const blogs = $derived(data.blogs);
+	const tags = $derived(data.tags);
 
 	const handleVisiblityChange = (
 		isIntersecting: boolean,
@@ -33,6 +35,15 @@
 		</div>
 	{:else}
 		<h1>Here are some blogs that you can check.</h1>
+
+		<div class="flex items-center gap-2.5">
+			{#each tags as tag}
+				<Tag to={tag}>
+					{tag}
+				</Tag>
+			{/each}
+		</div>
+
 		<div class="list mt-5 flex flex-col gap-2.5">
 			{#each blogs as blog}
 				<div

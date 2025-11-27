@@ -4,6 +4,9 @@
   keywords: automation, whatsapp, playwright, unstract, ocr, Google Ai Studio, Saroj Regmi
   author: Saroj Regmi
   date: 2025-03-25 
+  tag: 
+    - typescript
+    - automation
   status: published
 ---
 

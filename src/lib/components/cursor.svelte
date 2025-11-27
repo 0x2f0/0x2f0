@@ -40,9 +40,9 @@ Basic interactions between cursors like cursors not being able to go close to on
 And saying something funny like this is not a dating site go back..... when they try to touch each other.
 /// -->
 
-<div style={transform} role="none" class={cn('fixed', position == null ? 'hidden' : 'block')}>
+<!-- <div style={transform} role="none" class={cn('fixed', position == null ? 'hidden' : 'block')}>
 	<div class="relative mt-0.5">
 		<div class="icon"></div>
 		<div class={cn('annotation rounded-md bg-orange-700 text-xs text-white px-1 py-0.5 select-none')}>Anonymous user 1</div>
 	</div>
-</div>
+</div> -->

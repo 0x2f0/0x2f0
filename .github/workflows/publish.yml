@@ -50,3 +50,7 @@ jobs:
            --delete \
            --rsync-path="mkdir -p $RELEASE_DIR && rsync -q" \
            build/ $USERNAME@$HOST:$RELEASE_DIR
+
+      - name: Restart the service
+        run: |
+          ssh $USERNAME@$HOST "systemctl restart portfolio.service"

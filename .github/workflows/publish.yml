@@ -12,7 +12,7 @@ jobs:
       HOST: ${{ secrets.HOST }}
       USERNAME: ${{ secrets.USERNAME }}
       DEPLOY_KEY: ${{ secrets.DEPLOY_USER_SSH_KEY }}
-      RELEASE_DIR: ${{ secrets.SITE_DIR }}/production
+      RELEASE_DIR: ${{ secrets.SITE_DIR }}/prod
 
     steps:
       - name: pulling repo.

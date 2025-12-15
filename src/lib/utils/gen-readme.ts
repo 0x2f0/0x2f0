@@ -5,7 +5,7 @@ const replaceRef = {
 	'{{blog_list}}': (blogs: TBlog[]) => {
 		return blogs.reduce(
 			(p, c) =>
-				`[${c.metadata.title.trim().replaceAll('[', '(').replaceAll(']', ')')}](${domain}${c.slug})\n${p}`,
+				`\n[${c.metadata.title.trim().replaceAll('[', '(').replaceAll(']', ')')}](${domain}${c.slug})\n${p}`,
 			''
 		);
 	}

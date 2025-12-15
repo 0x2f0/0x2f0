@@ -21,16 +21,13 @@ from friday evening to saturday till night 12:00am. since all promotions after s
 
 
 > I always wanted to have a personal blog but did not have time to code one.
-> Unfortunately, this time when I wanted to share my experience I got slapped by 
-> <b> you exceeded max character limit message </b>
+> Unfortunately, this time when I wanted to share my experience I got slapped by <b> you exceeded max character limit message </b>
 >   in linkedin. And after searching for solutions, thinking of getting a premium (trail that
 >       is) and talking to one of my friends. I decided to invest some time and setup a blog and
 >   properly documenting this experience.
->   <br />
+>
 >   I have actually open sourced the code for this blog and the project. If you are curious then
->   you can check it out here.
->   <a href="https://github.com/sarojregmi200/wp-automation" data-bold> Project </a>,
->   <a href="https://github.com/sarojregmi200/portfolio" data-bold> Blog </a>
+>   you can check it out here <a href="https://github.com/sarojregmi200/wp-automation" data-bold> Project </a>, <a href="https://github.com/sarojregmi200/portfolio" data-bold> Blog </a>.
 
 ### What did i use?
 

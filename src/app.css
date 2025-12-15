@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
 @import 'tailwindcss';
 
 :root {
@@ -111,54 +112,70 @@
 	--color-bq: var(--bq);
 	--color-p: var(--p);
 	--color-h: var(--h);
+
+  --font-lora: "lora", serif;
+  --font-inter: 'Inter', sans-serif;
 }
 
 @layer base {
 	* {
 		@apply border-border;
-		font-family: 'Inter', sans-serif;
 	}
 
 	body {
 		@apply bg-background text-foreground;
+    font-family: var(--font-inter);
 	}
 }
 
 @layer components {
+  em {
+    @apply font-lora;
+  }
 	header {
 		@apply text-4xl font-bold text-heading;
 	}
+
+  small {
+    @apply font-lora;
+  }
 
 	h1 {
 		@apply text-3xl font-bold text-h;
 	}
 
 	h2 {
-		@apply text-2xl font-bold text-h;
+		@apply text-2xl font-bold text-h mb-2.5;
 	}
 
 	h3 {
-		@apply text-lg font-semibold text-h mt-10;
+		@apply text-lg font-semibold text-h mb-2.5 mt-15;
 	}
 
 	p {
-		@apply text-sm font-normal text-p my-2.5;
+		@apply text-sm font-normal text-p leading-6 mb-6 font-lora;
+
 	}
 
 	ol {
 		list-style-type: decimal;
 		list-style-position: inside;
-		@apply text-sm font-normal text-p;
+		@apply text-sm font-normal text-p pb-5;
+
+    &:is(p + ol) {
+      @apply -mt-3;
+    }
 	}
 
 	ol li,
 	ul li {
+    @apply font-lora;
 		text-indent: -2ch;
 		padding-left: 2ch;
 	}
 
 	blockquote {
-		@apply text-sm font-normal text-bq **:text-bq italic relative pl-5 py-2.5;
+		@apply text-sm font-normal text-bq **:text-bq italic relative pl-5 py-2.5 font-lora;
 	}
 
 	blockquote::before {

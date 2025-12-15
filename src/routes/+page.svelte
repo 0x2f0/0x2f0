@@ -15,14 +15,15 @@
 	<small class="text-sm text-neutral-500 sm:text-xl dark:text-gray-300"
 		>Hey it's me <FancyName />
 	</small>
-	<ul
-		class="flex flex-col gap-1 text-left text-3xl text-neutral-800 sm:gap-2.5 sm:text-6xl dark:text-white"
+
+	<section
+		class="flex flex-col gap-1 text-left font-inter text-3xl text-neutral-800 sm:gap-2.5 sm:text-6xl dark:text-white"
 	>
-		<li>A developer for fun,</li>
-		<li>designer by needs,</li>
-    <!-- Should add a hover effect telling my contributions to each and every single one of these. -->
-		<li>Linux and Vim user by heart.</li>
-	</ul>
+		<div>A developer for fun,</div>
+		<div>designer by needs,</div>
+		<!-- Should add a hover effect telling my contributions to each and every single one of these. -->
+		<div>Linux and Vim user by heart.</div>
+	</section>
 
 	<button
 		onclick={() => {

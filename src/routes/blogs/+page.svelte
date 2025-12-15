@@ -5,6 +5,7 @@
 	import { prettyDate } from '$lib/utils/date';
 	import { cn } from '$lib/utils/tailwind';
 	import Tag from '$lib/components/tag.svelte';
+	import { ChevronLeft } from 'lucide-svelte';
 
 	const { data }: PageProps = $props();
 	const blogs = $derived(data.blogs);
@@ -34,9 +35,13 @@
 			<p>No blogs found!!</p>
 		</div>
 	{:else}
-		<h1>Here are some blogs that you can check.</h1>
+		<div class="group mb-5 flex cursor-pointer items-center text-p **:m-0! opacity-80 hover:opacity-100 w-max">
+			<ChevronLeft />
+			<a class="no-underline group-hover:underline" href="/"> Go back </a>
+		</div>
 
-		<div class="flex items-center gap-2.5">
+		<h1>Some Blogs:</h1>
+		<div class="my-2.5 flex items-center gap-2.5">
 			{#each tags as tag}
 				<Tag to={tag}>
 					{tag}
@@ -44,7 +49,7 @@
 			{/each}
 		</div>
 
-		<div class="list mt-5 flex flex-col gap-2.5">
+		<div class="list mt-10 flex flex-col gap-2.5">
 			{#each blogs as blog}
 				<div
 					class={cn(

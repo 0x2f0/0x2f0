@@ -43,8 +43,7 @@ From the logs mentioned above one line is repeative.
 [3.059046] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
 ```
 Ok scrolling thought the logs you can clearly see, that the USB is fucked for sure.
-But which one?
-
+But which one?<br />
 greping the docs for the term usb.
 
 ```bash
@@ -58,18 +57,15 @@ And it says the usb hub is on "usb1-port2", and then..
 
 ## Solution
 I thought let me try disabling that port and trying rebooting the system.
-
 This is what came into my mind and I did try disabling the usb.
 And setting up the `udev rules` so, that the port stays disabled but that did not work.
 *I mean disabling of the port not it's effect.*
-
 And it was time for my office by then. So, I left the issue as is. 
 
 > And the thing about leaving work is, sometime when I switch I tend to forget that it existed.
 
 Regardless, after some days when I remembered it again. I went straight into it and this time I did some
-research not into "how can i actually disable the l**ing USB". But what does this error code mean? 
-
+research not into "how can i actually disable the USB". But what does this error code mean? 
 And to my surprise I found nothing relating to it. And after a little bit of digging I came across [this article](https://daniel-lange.com/archives/183-Linux-kernel-USB-errors-71-and-110.html).
 
 Which happend to have the exact issue I was going throught. I read it completely and found a simple solution, shut the computer unplug the power supply

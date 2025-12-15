@@ -21,5 +21,5 @@
 	class="cursor-pointer decoration-wavy decoration-1 outline-none hover:underline focus-visible:outline-none"
 	onclick={handleClick}
 >
-	{currentName}
+	<em>{currentName}</em>
 </button>

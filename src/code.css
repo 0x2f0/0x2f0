@@ -28,8 +28,8 @@ pre[class*="language-"] {
 	hyphens: none;
   font-size: 0.8rem;
 
-  --bg-4: #7c6f64;
-  --main-bg: #28282847;
+  --bg-4: light-dark(#333,#7c6f64);
+  --main-bg: light-dark(#333,#28282847);
 }
 
 pre[class*="language-"]::-moz-selection,

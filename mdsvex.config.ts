@@ -1,4 +1,4 @@
-import type { MdsvexOptions } from 'mdsvex';
+import { type MdsvexOptions } from 'mdsvex';
 import { join } from 'node:path';
 import rehypeAutolinkHeadings, { type Options } from 'rehype-autolink-headings';
 import rehypeExternalLinks from 'rehype-external-links';

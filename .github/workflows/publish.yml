@@ -54,3 +54,10 @@ jobs:
       - name: Restart the service
         run: |
           ssh $USERNAME@$HOST "systemctl restart portfolio.service"
+
+      - name: Commiting the updated file to readme.
+        env:
+          GITHUB_ACTION: "true"
+        run: |
+          sudo chmod +x .scripts/
+          ./.scripts/commit-updated-readme.sh

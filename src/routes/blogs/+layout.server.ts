@@ -1,12 +1,15 @@
 import type { TBlogFrontMatter } from '$lib/types';
 import { basename } from 'path';
 import type { LayoutServerLoad } from './$types';
+import { genReadMe } from '$lib/utils/gen-readme';
 
 export type TBlog = {
 	fileName: string;
 	slug: string;
 	metadata: TBlogFrontMatter;
 };
+
+const autogenReadme = new genReadMe();
 
 export const load: LayoutServerLoad = async () => {
 	const globResponse = import.meta.glob('./**/*.svx') ?? {};
@@ -50,6 +53,8 @@ export const load: LayoutServerLoad = async () => {
 			return 0;
 		}
 	});
+
+	autogenReadme.writeBlogs(blogs);
 
 	return {
 		blogs,

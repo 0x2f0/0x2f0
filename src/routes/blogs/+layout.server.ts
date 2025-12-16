@@ -43,8 +43,8 @@ export const load: LayoutServerLoad = async () => {
 			const dateA = new Date(a.metadata.date);
 			const dateB = new Date(b.metadata.date);
 
-			if (dateA < dateB) return -1;
-			if (dateA > dateB) return 1;
+			if (dateA < dateB) return 1;
+			if (dateA > dateB) return -1;
 
 			return 0;
 		} catch {
@@ -55,7 +55,7 @@ export const load: LayoutServerLoad = async () => {
 	// only generate readme when building throught github actions.
 	if (Bun.env.GITHUB_ACTIONS === 'true') {
 		const autogenReadme = new genReadMe();
-		autogenReadme.writeBlogs(blogs);
+		autogenReadme.writeBlogs(blogs.slice(0, 10));
 	}
 
 	return {

@@ -10,6 +10,9 @@
 <svelte:head>
 	<title>Blog lists | Saroj Regmi</title>
 	<meta name="title" content="Blog lists | Saroj Regmi" />
+	<meta name="description" content={`Blogs by saroj regmi`} />
+	<meta name="keywords" content={`Saroj Regmi, blogs, ${Array.from(tags).join(',')}`} />
+	<meta name="author" content={'Saroj Regmi'} />
 </svelte:head>
 
 <BlogList {blogs} {tags} />

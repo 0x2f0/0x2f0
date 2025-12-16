@@ -9,6 +9,13 @@
 
 <svelte:head>
 	<title>saroj_r | 0x2f0 Home</title>
+	<meta
+		name="description"
+		content={'A developer who is interested in linux and vim, wants to navigate the systems space and is currently working as a fullstack dev.'}
+	/>
+	<meta name="keywords" content={'Linux,saroj,sarojregmi,sarojregmi200,0x2f0,0x1ff'} />
+	<meta name="author" content={'Saroj Regmi'} />
+	<meta property="og:title" content={'Fullstack wanna be Systems Soy Dev!'} />
 </svelte:head>
 
 <div class="flex h-screen flex-col justify-center gap-2.5 p-2.5 sm:p-20">

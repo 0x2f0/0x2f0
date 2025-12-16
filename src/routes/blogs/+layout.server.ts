@@ -9,8 +9,6 @@ export type TBlog = {
 	metadata: TBlogFrontMatter;
 };
 
-const autogenReadme = new genReadMe();
-
 export const load: LayoutServerLoad = async () => {
 	const globResponse = import.meta.glob('./**/*.svx') ?? {};
 	const blogs: TBlog[] = [];
@@ -54,7 +52,11 @@ export const load: LayoutServerLoad = async () => {
 		}
 	});
 
-	autogenReadme.writeBlogs(blogs);
+	// only generate readme when building throught github actions.
+	if (Bun.env.GITHUB_ACTIONS === 'true') {
+		const autogenReadme = new genReadMe();
+		autogenReadme.writeBlogs(blogs);
+	}
 
 	return {
 		blogs,

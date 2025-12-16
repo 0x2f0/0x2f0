@@ -44,13 +44,12 @@
 			<a class="no-underline group-hover:underline" href="/"> Go back </a>
 		</div>
 
-		{#if tag !== undefined}
-			<h1>Some Blogs relating to {tag}</h1>
-		{:else}
-			<h1>Some Blogs:</h1>
-		{/if}
-
-		<h1>Some Blogs with {tag} tag:</h1>
+		<h1>
+			All Blogs
+			{#if tag}
+				relating to `{tag}`
+			{/if}
+		</h1>
 		<div class="my-2.5 flex items-center gap-2.5">
 			{#each tags as tag}
 				<Tag to={tag}>

@@ -1,21 +1,16 @@
 <script lang="ts">
-	import { page } from '$app/state';
 	import BlogList from '$lib/components/blog-list.svelte';
-	import type { LayoutData } from '../../$types';
-
-	const tag = $derived(page.params.tag as string);
-	const { tags: all_tags, blogs: all_blogs } = $derived(page.data as LayoutData);
-
-	const getTags = $derived(() => {
-		const tags = new Set(all_tags);
-		tags.delete(tag);
-		tags.add('clear');
-
-		return tags;
-	});
-
-	const tags = $derived(getTags());
-	const blogs = $derived(tag ? all_blogs.filter((b) => b.metadata.tag?.includes(tag)) : all_blogs);
+	import type { PageProps } from './$types';
+	const { data } = $props() as PageProps;
+	const { blogs, tag, tags } = $derived(data);
 </script>
+
+<svelte:head>
+	<title>saroj_r | 0x2f0 Home</title>
+	<meta name="description" content={`Saroj Regmi blogs related to ${tag}`} />
+	<meta name="keywords" content={`${tag}`} />
+	<meta name="author" content={'Saroj Regmi'} />
+	<meta property="og:title" content={`Blogs by Saroj Regmi, ${tag}`} />
+</svelte:head>
 
 <BlogList {tags} {blogs} {tag} />

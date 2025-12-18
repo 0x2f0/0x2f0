@@ -6,7 +6,7 @@
 </script>
 
 <svelte:head>
-	<title>saroj_r | 0x2f0 Home</title>
+	<title>saroj_r | 0x2f0 {tag} </title>
 	<meta name="description" content={`Saroj Regmi blogs related to ${tag}`} />
 	<meta name="keywords" content={`${tag}`} />
 	<meta name="author" content={'Saroj Regmi'} />

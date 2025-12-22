@@ -18,7 +18,7 @@ export const load: LayoutServerLoad = async () => {
 		const metadata = ((await fileModule()) as any).metadata as TBlogFrontMatter;
 
 		if (import.meta.env.PROD)
-			if (metadata.status === 'draft' || metadata?.status === undefined) continue;
+			if (metadata?.status === 'draft' || metadata?.status === undefined) continue;
 
 		blogs.push({
 			fileName: blogFileName,
@@ -26,7 +26,7 @@ export const load: LayoutServerLoad = async () => {
 			metadata
 		});
 
-		if (!metadata.tag) continue;
+		if (!metadata?.tag) continue;
 
 		if (Array.isArray(metadata.tag)) {
 			metadata.tag?.forEach((tag) => {

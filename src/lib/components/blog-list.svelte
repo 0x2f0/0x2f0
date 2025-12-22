@@ -63,7 +63,7 @@
 				<div
 					class={cn(
 						`container rounded-md bg-muted p-2.5 text-muted-foreground`,
-						blog.metadata.status == 'draft' && 'border border-orange-200'
+						blog.metadata?.status == 'draft' && 'border border-orange-200'
 					)}
 					{@attach onVisiblityChange((...props) => handleVisiblityChange(...props, blog.slug))}
 				>

@@ -1,0 +1,19 @@
+---
+  title: Why is there no .np domain?
+  intro: It would be cool to have a .np domain? Instead we have a .com.np, .edu.np, .org.np ... etc something.np but why? 
+  date:  Mon Dec 22 18:47:45 +0545 2025
+---
+
+### Background
+
+I have always wondered why don't we have a `.np` domain? <br />
+I mean the .np extension or [TLD](https://en.wikipedia.org/wiki/Top-level_domain) but for ease of use and understanding let us refer to them as domains. 
+And why the hell does everyone keeps referring "com.np, org.np, edu.np, net.np, gov.np, name.np, biz.np, travel.np, asia.np, coop.np, pro.np and mil.np [\[sources\]](https://register.com.np/np-ccTLDs)" as .np domain.
+They are not even primary [TLDS](https://en.wikipedia.org/wiki/Top-level_domain) domains. They are secondary extensions or insort [ccSLD](https://en.wikipedia.org/wiki/Country_code_second-level_domain) of .np [ccTLD](https://en.wikipedia.org/wiki/Country_code_top-level_domain). 
+Now we have a little context on the situation let us take a deep dive into the matter and uncover the truth.
+
+
+### Why is that the case? 
+
+
+### Is there anything we can do about it?

@@ -136,10 +136,6 @@
 		@apply text-4xl font-bold text-heading;
 	}
 
-  small {
-    @apply font-lora;
-  }
-
 	h1 {
 		@apply text-3xl font-bold text-h;
 	}
@@ -184,7 +180,7 @@
 	}
 
 	code:not(pre > code) {
-		@apply text-xs text-neutral-500 bg-neutral-200 dark:bg-neutral-800 rounded-md px-1 py-0.5 not-italic break-keep inline-block;
+		@apply text-xs text-neutral-500 bg-neutral-200 dark:bg-neutral-800 rounded-md px-1 py-0.5 not-italic break-keep inline;
     text-wrap: wrap;
     max-width: calc(100vw - 50px);
 	}
@@ -205,10 +201,12 @@
 		@apply p-2.5 block my-2.5;
 	}
 
-  landing {
-    @apply h-[75vh] flex items-center justify-center flex-col **:w-full ; 
+  article {
+    @apply mx-auto h-screen max-w-3xl scroll-mb-96 px-5 py-10 sm:p-10;
+    section {
+      @apply flex h-3/4 flex-col items-center justify-center **:w-full
+    }
   }
-
 }
 
 html {

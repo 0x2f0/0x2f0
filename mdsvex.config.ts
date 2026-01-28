@@ -17,7 +17,8 @@ export default defineConfig({
 		rehypeExternalLinks
 	],
 	layout: {
-		_: join(import.meta.dirname, './src/lib/layouts/blog.svelte')
+		blogs: join(import.meta.dirname, './src/lib/layouts/blog.svelte'),
+    _:join(import.meta.dirname, './src/lib/layouts/default.svelte')
 	},
 	extensions: ['.svx', '.md']
 });

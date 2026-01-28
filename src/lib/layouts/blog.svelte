@@ -25,8 +25,8 @@
 	{/if}
 </svelte:head>
 
-<article class="mx-auto h-screen max-w-3xl scroll-mb-96 px-5 py-10 sm:p-10">
-	<section class="heading flex h-3/4 flex-col items-center justify-center **:w-full">
+<article>
+	<section>
 		{#if cover_img}
 			<img src={cover_img} alt={`cover image for ${title}`} />
 		{/if}

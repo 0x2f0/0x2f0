@@ -19,7 +19,7 @@
 </svelte:head>
 
 <div class="flex h-screen flex-col justify-center gap-2.5 p-2.5 sm:p-20">
-	<small class="text-sm text-neutral-500 sm:text-xl dark:text-gray-300"
+	<small class="font-lora text-sm text-neutral-500 italic sm:text-xl dark:text-gray-300"
 		>Hey it's me <FancyName />
 	</small>
 

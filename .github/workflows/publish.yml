@@ -1,0 +1,47 @@
+name: Deploy portfolio
+on: 
+  push:
+    branches:
+      - main
+jobs:
+  build:
+    name: setup, build and deploy
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: pulling repo. 
+        uses: actions/checkout@v4
+
+      - name: setting up bun.
+        uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: latest
+
+      - name: installing dependencies.
+        run: bun install
+
+      - name: build
+        run: bun run build
+
+      - name: Copying the files to the server using rsync.
+        env:
+          HOST: ${{ secrets.HOST }}
+          USERNAME: ${{ secrets.USERNAME }}
+          DEPLOY_KEY: ${{ secrets.DEPLOY_USER_SSH_KEY }}
+          SITE_DIR: ${{ secrets.SITE_DIR }}
+        run: |
+          mkdir -p ~/.ssh/
+          echo "$DEPLOY_KEY" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+
+          ssh-keyscan -H $HOST >> ~/.ssh/known_hosts
+
+          echo "$GITHUB_SHA github sha"
+
+          # Copying the files to the server using rsync.
+          rsync -avz --delete -e "ssh -i ~/.ssh/id_rsa -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null" --rsync-path="mkdir -p $SITE_DIR/releases/$GITHUB_SHA && rsync" . $USERNAME@$HOST:$SITE_DIR/releases/$GITHUB_SHA
+
+          # Executing the deployment script on the server.
+          ssh -i ~/.ssh/id_rsa $USERNAME@$HOST "bash -s" < deploy/deploy.sh $GITHUB_SHA $SITE_DIR
+
+          rm -rf ~/.ssh/id_rsa

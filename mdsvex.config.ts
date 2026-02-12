@@ -1,6 +1,7 @@
-import type { MdsvexOptions } from 'mdsvex';
+import { type MdsvexOptions } from 'mdsvex';
 import { join } from 'node:path';
 import rehypeAutolinkHeadings, { type Options } from 'rehype-autolink-headings';
+import rehypeExternalLinks from 'rehype-external-links';
 import rehypeSlug from 'rehype-slug';
 
 const defineConfig = (config: MdsvexOptions) => config;
@@ -10,9 +11,14 @@ const rehypeAutolinkHeadingsOptions: Options = {
 };
 
 export default defineConfig({
-	rehypePlugins: [rehypeSlug, [rehypeAutolinkHeadings, rehypeAutolinkHeadingsOptions]],
+	rehypePlugins: [
+		rehypeSlug,
+		[rehypeAutolinkHeadings, rehypeAutolinkHeadingsOptions],
+		rehypeExternalLinks
+	],
 	layout: {
-		_: join(import.meta.dirname, './src/lib/layouts/blog.svelte')
+		blogs: join(import.meta.dirname, './src/lib/layouts/blog.svelte'),
+    _:join(import.meta.dirname, './src/lib/layouts/default.svelte')
 	},
 	extensions: ['.svx', '.md']
 });

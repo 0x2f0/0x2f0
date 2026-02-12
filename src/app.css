@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
 @import 'tailwindcss';
 
 :root {
@@ -111,20 +112,26 @@
 	--color-bq: var(--bq);
 	--color-p: var(--p);
 	--color-h: var(--h);
+
+  --font-lora: "lora", serif;
+  --font-inter: 'Inter', sans-serif;
 }
 
 @layer base {
 	* {
 		@apply border-border;
-		font-family: 'Inter', sans-serif;
 	}
 
 	body {
 		@apply bg-background text-foreground;
+    font-family: var(--font-inter);
 	}
 }
 
 @layer components {
+  em {
+    @apply font-lora;
+  }
 	header {
 		@apply text-4xl font-bold text-heading;
 	}
@@ -134,31 +141,37 @@
 	}
 
 	h2 {
-		@apply text-2xl font-bold text-h;
+		@apply text-2xl font-bold text-h mb-2.5;
 	}
 
 	h3 {
-		@apply text-lg font-semibold text-h mt-10;
+		@apply text-lg font-semibold text-h mb-2.5 mt-15;
 	}
 
 	p {
-		@apply text-sm font-normal text-p my-2.5;
+		@apply text-sm font-normal text-p leading-6 mb-6 font-lora;
+
 	}
 
 	ol {
 		list-style-type: decimal;
 		list-style-position: inside;
-		@apply text-sm font-normal text-p;
+		@apply text-sm font-normal text-p pb-5;
+
+    &:is(p + ol) {
+      @apply -mt-3;
+    }
 	}
 
 	ol li,
 	ul li {
+    @apply font-lora;
 		text-indent: -2ch;
 		padding-left: 2ch;
 	}
 
 	blockquote {
-		@apply text-sm font-normal text-bq **:text-bq italic relative pl-5 py-2.5;
+		@apply text-sm font-normal text-bq **:text-bq italic relative pl-5 py-2.5 font-lora;
 	}
 
 	blockquote::before {
@@ -166,18 +179,27 @@
 		@apply absolute top-2.5 left-0 text-xl font-bold text-orange-400;
 	}
 
-	code {
-		@apply text-xs text-neutral-500 bg-neutral-200 dark:bg-neutral-800 rounded-md px-1 py-0.5 not-italic break-keep inline-block;
+	code:not(pre > code) {
+		@apply text-xs text-neutral-500 bg-neutral-200 dark:bg-neutral-800 rounded-md px-1 py-0.5 not-italic break-keep inline;
     text-wrap: wrap;
     max-width: calc(100vw - 50px);
 	}
 
 	a {
-		@apply text-p underline-offset-4 inline-block dark:decoration-blue-300 decoration-blue-500 decoration-1 decoration-wavy underline;
+		/* @apply text-p underline-offset-4 inline-block dark:decoration-blue-300 decoration-blue-500 decoration-1 decoration-wavy underline;
 
     &:is(h1 > a, h2> a, h3> a, h4> a, h5> a) {
       @apply no-underline hover:underline
+    } */
+	 @apply dark:text-blue-300 text-blue-400 underline-offset-4 inline-block dark:decoration-blue-300 decoration-blue-500 decoration-1 hover:underline decoration-wavy;
+
+    &:is(h1 > a, h2> a, h3> a, h4> a, h5> a, a[role=button]) {
+      @apply text-p;
     }
+
+  &[role=button] {
+      @apply hover:no-underline
+      }
 	}
 
 	[data-bold] {
@@ -188,10 +210,12 @@
 		@apply p-2.5 block my-2.5;
 	}
 
-  landing {
-    @apply h-[75vh] flex items-center justify-center flex-col **:w-full ; 
+  article {
+    @apply mx-auto h-screen max-w-3xl scroll-mb-96 px-5 py-10 sm:p-10;
+    section {
+      @apply flex h-3/4 flex-col items-center justify-center **:w-full
+    }
   }
-
 }
 
 html {

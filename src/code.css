@@ -11,7 +11,6 @@
 code[class*="language-"],
 pre[class*="language-"] {
 	color: #ebdbb2; /* fg1 / fg */
-	font-family: Consolas, Monaco, "Andale Mono", monospace;
 	direction: ltr;
 	text-align: left;
 	white-space: pre;
@@ -27,6 +26,10 @@ pre[class*="language-"] {
 	-moz-hyphens: none;
 	-ms-hyphens: none;
 	hyphens: none;
+  font-size: 0.8rem;
+
+  --bg-4: light-dark(#333,#7c6f64);
+  --main-bg: light-dark(#333,#28282847);
 }
 
 pre[class*="language-"]::-moz-selection,
@@ -34,7 +37,7 @@ pre[class*="language-"] ::-moz-selection,
 code[class*="language-"]::-moz-selection,
 code[class*="language-"] ::-moz-selection {
 	color: #fbf1c7; /* fg0 */
-	background: #7c6f64; /* bg4 */
+	background: var(--bg-4); /* bg4 */
 }
 
 pre[class*="language-"]::selection,
@@ -42,7 +45,7 @@ pre[class*="language-"] ::selection,
 code[class*="language-"]::selection,
 code[class*="language-"] ::selection {
 	color: #fbf1c7; /* fg0 */
-	background: #7c6f64; /* bg4 */
+	background: var(--bg-4); /* bg4 */
 }
 
 /* Code blocks */
@@ -54,7 +57,7 @@ pre[class*="language-"] {
 
 :not(pre) > code[class*="language-"],
 pre[class*="language-"] {
-	background: #1d2021; /* bg0_h */
+	background: var(--main-bg); /* bg0_h */
 }
 
 /* Inline code */

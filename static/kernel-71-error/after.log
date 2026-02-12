@@ -1,0 +1,75 @@
+1:376:[    0.301952] ACPI: \_SB_.PCI0.XDCI.USBC: New power resource
+2:507:[    0.365796] ACPI: bus type USB registered
+3:508:[    0.365796] usbcore: registered new interface driver usbfs
+4:509:[    0.365796] usbcore: registered new interface driver hub
+5:510:[    0.365796] usbcore: registered new device driver usb
+6:659:[    0.646574] xhci_hcd 0000:00:14.0: new USB bus registered, assigned bus number 1
+7:662:[    0.648017] xhci_hcd 0000:00:14.0: new USB bus registered, assigned bus number 2
+8:663:[    0.648019] xhci_hcd 0000:00:14.0: Host supports USB 3.1 Enhanced SuperSpeed
+9:664:[    0.648067] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 6.17
+10:665:[    0.648070] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+11:666:[    0.648071] usb usb1: Product: xHCI Host Controller
+12:667:[    0.648073] usb usb1: Manufacturer: Linux 6.17.9-arch1-1 xhci-hcd
+13:668:[    0.648074] usb usb1: SerialNumber: 0000:00:14.0
+14:669:[    0.648244] hub 1-0:1.0: USB hub found
+15:671:[    0.648878] usb usb2: New USB device found, idVendor=1d6b, idProduct=0003, bcdDevice= 6.17
+16:672:[    0.648881] usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+17:673:[    0.648883] usb usb2: Product: xHCI Host Controller
+18:674:[    0.648884] usb usb2: Manufacturer: Linux 6.17.9-arch1-1 xhci-hcd
+19:675:[    0.648885] usb usb2: SerialNumber: 0000:00:14.0
+20:676:[    0.649008] hub 2-0:1.0: USB hub found
+21:678:[    0.649451] usb: port power management may be unreliable
+22:679:[    0.649632] usbcore: registered new interface driver usbserial_generic
+23:680:[    0.649638] usbserial: USB Serial support registered for generic
+24:696:[    0.660762] usbcore: registered new interface driver usbhid
+25:697:[    0.660763] usbhid: USB HID core driver
+26:730:[    0.883108] usb 1-1: new full-speed USB device number 2 using xhci_hcd
+27:734:[    1.012130] usb 1-1: New USB device found, idVendor=046d, idProduct=c548, bcdDevice= 5.03
+28:735:[    1.012141] usb 1-1: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+29:736:[    1.012146] usb 1-1: Product: USB Receiver
+30:737:[    1.012149] usb 1-1: Manufacturer: Logitech
+31:738:[    1.016516] input: Logitech USB Receiver as /devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1:1.0/0003:046D:C548.0001/input/input3
+32:740:[    1.067314] hid-generic 0003:046D:C548.0001: input,hidraw0: USB HID v1.11 Keyboard [Logitech USB Receiver] on usb-0000:00:14.0-1/input0
+33:741:[    1.068810] input: Logitech USB Receiver Mouse as /devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1:1.1/0003:046D:C548.0002/input/input4
+34:742:[    1.068883] input: Logitech USB Receiver Consumer Control as /devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1:1.1/0003:046D:C548.0002/input/input5
+35:750:[    1.119317] input: Logitech USB Receiver System Control as /devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1:1.1/0003:046D:C548.0002/input/input6
+36:751:[    1.119442] input: Logitech USB Receiver as /devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1:1.1/0003:046D:C548.0002/input/input7
+37:752:[    1.119661] hid-generic 0003:046D:C548.0002: input,hiddev96,hidraw1: USB HID v1.11 Mouse [Logitech USB Receiver] on usb-0000:00:14.0-1/input1
+38:753:[    1.121286] hid-generic 0003:046D:C548.0003: hiddev97,hidraw2: USB HID v1.11 Device [Logitech USB Receiver] on usb-0000:00:14.0-1/input2
+39:755:[    1.124386] input: Logitech USB Receiver as /devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1:1.3/0003:046D:C548.0004/input/input8
+40:757:[    1.124531] hid-generic 0003:046D:C548.0004: input,hidraw3: USB HID v1.11 Device [Logitech USB Receiver] on usb-0000:00:14.0-1/input3
+41:772:[    1.236224] usb 1-3: new high-speed USB device number 3 using xhci_hcd
+42:773:[    1.360281] usb 1-3: New USB device found, idVendor=214b, idProduct=7250, bcdDevice= 1.00
+43:774:[    1.360285] usb 1-3: New USB device strings: Mfr=0, Product=1, SerialNumber=0
+44:775:[    1.360286] usb 1-3: Product: USB2.0 HUB
+45:776:[    1.360952] hub 1-3:1.0: USB hub found
+46:783:[    1.472991] usb 1-6: new high-speed USB device number 4 using xhci_hcd
+47:791:[    1.660119] usb 1-3.1: new full-speed USB device number 5 using xhci_hcd
+48:792:[    1.668129] usb 1-6: New USB device found, idVendor=174f, idProduct=244c, bcdDevice= 0.13
+49:793:[    1.668134] usb 1-6: New USB device strings: Mfr=3, Product=1, SerialNumber=2
+50:794:[    1.668135] usb 1-6: Product: Integrated Camera
+51:795:[    1.668136] usb 1-6: Manufacturer: Generic
+52:796:[    1.668137] usb 1-6: SerialNumber: 0001
+53:800:[    1.734476] usb 1-3.1: New USB device found, idVendor=3434, idProduct=0223, bcdDevice= 1.00
+54:801:[    1.734478] usb 1-3.1: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+55:802:[    1.734480] usb 1-3.1: Product: Keychron K2 Pro
+56:803:[    1.734480] usb 1-3.1: Manufacturer: Keychron
+57:804:[    1.744410] input: Keychron Keychron K2 Pro as /devices/pci0000:00/0000:00:14.0/usb1/1-3/1-3.1/1-3.1:1.0/0003:3434:0223.0005/input/input9
+58:806:[    1.841234] hid-generic 0003:3434:0223.0005: input,hidraw4: USB HID v1.11 Keyboard [Keychron Keychron K2 Pro] on usb-0000:00:14.0-3.1/input0
+59:807:[    1.841714] hid-generic 0003:3434:0223.0006: hiddev98,hidraw5: USB HID v1.11 Device [Keychron Keychron K2 Pro] on usb-0000:00:14.0-3.1/input1
+60:808:[    1.842387] input: Keychron Keychron K2 Pro Mouse as /devices/pci0000:00/0000:00:14.0/usb1/1-3/1-3.1/1-3.1:1.2/0003:3434:0223.0007/input/input10
+61:809:[    1.842452] input: Keychron Keychron K2 Pro System Control as /devices/pci0000:00/0000:00:14.0/usb1/1-3/1-3.1/1-3.1:1.2/0003:3434:0223.0007/input/input11
+62:810:[    1.845022] usb 1-14: new high-speed USB device number 6 using xhci_hcd
+63:811:[    1.895468] input: Keychron Keychron K2 Pro Consumer Control as /devices/pci0000:00/0000:00:14.0/usb1/1-3/1-3.1/1-3.1:1.2/0003:3434:0223.0007/input/input12
+64:812:[    1.895581] input: Keychron Keychron K2 Pro Keyboard as /devices/pci0000:00/0000:00:14.0/usb1/1-3/1-3.1/1-3.1:1.2/0003:3434:0223.0007/input/input13
+65:813:[    1.922353] hid-generic 0003:3434:0223.0007: input,hidraw6: USB HID v1.11 Mouse [Keychron Keychron K2 Pro] on usb-0000:00:14.0-3.1/input2
+66:814:[    1.969761] usb 1-14: New USB device found, idVendor=0489, idProduct=e156, bcdDevice= 1.00
+67:815:[    1.969766] usb 1-14: New USB device strings: Mfr=5, Product=6, SerialNumber=7
+68:816:[    1.969769] usb 1-14: Product: Wireless_Device
+69:817:[    1.969773] usb 1-14: Manufacturer: MediaTek Inc.
+70:818:[    1.969775] usb 1-14: SerialNumber: 000000000
+71:827:[    3.687836] input: Logitech USB Receiver as /devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1:1.3/0003:046D:C548.0004/input/input14
+72:828:[    3.687903] hid-multitouch 0003:046D:C548.0004: input,hidraw3: USB HID v1.11 Device [Logitech USB Receiver] on usb-0000:00:14.0-1/input3
+73:964:[    5.351931] usbcore: registered new interface driver btusb
+74:967:[    5.402998] usb 1-6: Found UVC 1.10 device Integrated Camera (174f:244c)
+75:969:[    5.440454] usbcore: registered new interface driver uvcvideo

@@ -6,6 +6,7 @@ export type TBlogFrontMatter = {
 	/** Iso date, string */
 	date: string;
 	status?: 'published' | 'draft';
+	tag?: string[];
 };
 
 export type TMousePosition = [xPosition: number, yPosition: number];

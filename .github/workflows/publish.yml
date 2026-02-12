@@ -12,7 +12,7 @@ jobs:
       HOST: ${{ secrets.HOST }}
       USERNAME: ${{ secrets.USERNAME }}
       DEPLOY_KEY: ${{ secrets.DEPLOY_USER_SSH_KEY }}
-      RELEASE_DIR: ${{ secrets.SITE_DIR }}/production
+      RELEASE_DIR: ${{ secrets.SITE_DIR }}/prod
 
     steps:
       - name: pulling repo.
@@ -50,3 +50,14 @@ jobs:
            --delete \
            --rsync-path="mkdir -p $RELEASE_DIR && rsync -q" \
            build/ $USERNAME@$HOST:$RELEASE_DIR
+
+      - name: Restart the service
+        run: |
+          ssh $USERNAME@$HOST "systemctl restart portfolio.service"
+
+      - name: Commiting the updated file to readme.
+        env:
+          GITHUB_ACTION: "true"
+        run: |
+          sudo chmod +x .scripts/
+          ./.scripts/commit-updated-readme.sh

@@ -1,0 +1,1505 @@
+108:[    0.642538] xhci_hcd 0000:00:14.0: new USB bus registered, assigned bus number 1
+111:[    0.643971] xhci_hcd 0000:00:14.0: new USB bus registered, assigned bus number 2
+112:[    0.643973] xhci_hcd 0000:00:14.0: Host supports USB 3.1 Enhanced SuperSpeed
+113:[    0.644064] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 6.17
+114:[    0.644068] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+115:[    0.644070] usb usb1: Product: xHCI Host Controller
+116:[    0.644072] usb usb1: Manufacturer: Linux 6.17.9-arch1-1 xhci-hcd
+117:[    0.644073] usb usb1: SerialNumber: 0000:00:14.0
+118:[    0.644292] hub 1-0:1.0: USB hub found
+120:[    0.644953] usb usb2: New USB device found, idVendor=1d6b, idProduct=0003, bcdDevice= 6.17
+121:[    0.644957] usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+122:[    0.644959] usb usb2: Product: xHCI Host Controller
+123:[    0.644960] usb usb2: Manufacturer: Linux 6.17.9-arch1-1 xhci-hcd
+124:[    0.644962] usb usb2: SerialNumber: 0000:00:14.0
+125:[    0.645127] hub 2-0:1.0: USB hub found
+127:[    0.645612] usb: port power management may be unreliable
+128:[    0.645789] usbcore: registered new interface driver usbserial_generic
+129:[    0.645795] usbserial: USB Serial support registered for generic
+145:[    0.656976] usbcore: registered new interface driver usbhid
+146:[    0.656977] usbhid: USB HID core driver
+179:[    0.883089] usb 1-1: new high-speed USB device number 2 using xhci_hcd
+183:[    1.006467] usb 1-1: New USB device found, idVendor=214b, idProduct=7250, bcdDevice= 1.00
+184:[    1.006481] usb 1-1: New USB device strings: Mfr=0, Product=1, SerialNumber=0
+185:[    1.006486] usb 1-1: Product: USB2.0 HUB
+186:[    1.007674] hub 1-1:1.0: USB hub found
+196:[    1.120140] usb 1-2: new full-speed USB device number 3 using xhci_hcd
+213:[    1.233125] usb 1-2: device descriptor read/64, error -71
+231:[    3.059046] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+234:[    3.171007] usb 1-2: new full-speed USB device number 4 using xhci_hcd
+235:[    3.283219] usb 1-2: device descriptor read/64, error -71
+246:[    5.107234] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+247:[    5.107359] usb usb1-port2: attempt power cycle
+248:[    5.169231] usb 1-1.1: new full-speed USB device number 5 using xhci_hcd
+249:[    5.244707] usb 1-1.1: New USB device found, idVendor=3434, idProduct=0223, bcdDevice= 1.00
+250:[    5.244721] usb 1-1.1: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+251:[    5.244726] usb 1-1.1: Product: Keychron K2 Pro
+252:[    5.244731] usb 1-1.1: Manufacturer: Keychron
+253:[    5.256660] input: Keychron Keychron K2 Pro as /devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.1/1-1.1:1.0/0003:3434:0223.0001/input/input3
+254:[    5.336589] hid-generic 0003:3434:0223.0001: input,hidraw0: USB HID v1.11 Keyboard [Keychron Keychron K2 Pro] on usb-0000:00:14.0-1.1/input0
+255:[    5.337968] hid-generic 0003:3434:0223.0002: hiddev96,hidraw1: USB HID v1.11 Device [Keychron Keychron K2 Pro] on usb-0000:00:14.0-1.1/input1
+256:[    5.340673] input: Keychron Keychron K2 Pro Mouse as /devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.1/1-1.1:1.2/0003:3434:0223.0003/input/input4
+257:[    5.340940] input: Keychron Keychron K2 Pro System Control as /devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.1/1-1.1:1.2/0003:3434:0223.0003/input/input5
+258:[    5.391362] input: Keychron Keychron K2 Pro Consumer Control as /devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.1/1-1.1:1.2/0003:3434:0223.0003/input/input6
+259:[    5.391452] input: Keychron Keychron K2 Pro Keyboard as /devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.1/1-1.1:1.2/0003:3434:0223.0003/input/input7
+260:[    5.423544] hid-generic 0003:3434:0223.0003: input,hidraw2: USB HID v1.11 Mouse [Keychron Keychron K2 Pro] on usb-0000:00:14.0-1.1/input2
+261:[    6.963265] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+262:[    7.075214] usb 1-2: new full-speed USB device number 7 using xhci_hcd
+263:[    7.075390] usb 1-2: Device not responding to setup address.
+264:[    7.283263] usb 1-2: Device not responding to setup address.
+265:[    7.491198] usb 1-2: device not accepting address 7, error -71
+266:[    7.491289] usb 1-2: WARN: invalid context state for evaluate context command.
+267:[    7.491362] usb usb1-port2: unable to enumerate USB device
+268:[    7.553226] usb 1-1.4: new full-speed USB device number 8 using xhci_hcd
+269:[    7.634305] usb 1-1.4: New USB device found, idVendor=046d, idProduct=c548, bcdDevice= 5.03
+270:[    7.634320] usb 1-1.4: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+271:[    7.634326] usb 1-1.4: Product: USB Receiver
+272:[    7.634331] usb 1-1.4: Manufacturer: Logitech
+273:[    7.648466] input: Logitech USB Receiver as /devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.4/1-1.4:1.0/0003:046D:C548.0004/input/input8
+274:[    7.721664] hid-generic 0003:046D:C548.0004: input,hidraw3: USB HID v1.11 Keyboard [Logitech USB Receiver] on usb-0000:00:14.0-1.4/input0
+275:[    7.724578] input: Logitech USB Receiver Mouse as /devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.4/1-1.4:1.1/0003:046D:C548.0005/input/input9
+276:[    7.724971] input: Logitech USB Receiver Consumer Control as /devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.4/1-1.4:1.1/0003:046D:C548.0005/input/input10
+277:[    7.740230] usb 1-6: new high-speed USB device number 9 using xhci_hcd
+278:[    7.775578] input: Logitech USB Receiver System Control as /devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.4/1-1.4:1.1/0003:046D:C548.0005/input/input11
+279:[    7.775871] input: Logitech USB Receiver as /devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.4/1-1.4:1.1/0003:046D:C548.0005/input/input12
+280:[    7.776406] hid-generic 0003:046D:C548.0005: input,hiddev97,hidraw4: USB HID v1.11 Mouse [Logitech USB Receiver] on usb-0000:00:14.0-1.4/input1
+281:[    7.778866] hid-generic 0003:046D:C548.0006: hiddev98,hidraw5: USB HID v1.11 Device [Logitech USB Receiver] on usb-0000:00:14.0-1.4/input2
+282:[    7.781881] input: Logitech USB Receiver as /devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.4/1-1.4:1.3/0003:046D:C548.0007/input/input13
+283:[    7.782007] hid-generic 0003:046D:C548.0007: input,hidraw6: USB HID v1.11 Device [Logitech USB Receiver] on usb-0000:00:14.0-1.4/input3
+284:[    7.935766] usb 1-6: New USB device found, idVendor=174f, idProduct=244c, bcdDevice= 0.13
+285:[    7.935772] usb 1-6: New USB device strings: Mfr=3, Product=1, SerialNumber=2
+286:[    7.935774] usb 1-6: Product: Integrated Camera
+287:[    7.935776] usb 1-6: Manufacturer: Generic
+288:[    7.935778] usb 1-6: SerialNumber: 0001
+289:[    8.053156] usb 1-14: new high-speed USB device number 10 using xhci_hcd
+290:[    8.178687] usb 1-14: New USB device found, idVendor=0489, idProduct=e156, bcdDevice= 1.00
+291:[    8.178703] usb 1-14: New USB device strings: Mfr=5, Product=6, SerialNumber=7
+292:[    8.178709] usb 1-14: Product: Wireless_Device
+293:[    8.178714] usb 1-14: Manufacturer: MediaTek Inc.
+294:[    8.178718] usb 1-14: SerialNumber: 000000000
+295:[    8.399204] usb 1-2: new full-speed USB device number 11 using xhci_hcd
+296:[    8.511240] usb 1-2: device descriptor read/64, error -71
+297:[   10.339277] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+298:[   10.451206] usb 1-2: new full-speed USB device number 12 using xhci_hcd
+299:[   10.564240] usb 1-2: device descriptor read/64, error -71
+300:[   12.387246] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+301:[   12.387356] usb usb1-port2: attempt power cycle
+302:[   14.171262] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+303:[   14.283205] usb 1-2: new full-speed USB device number 14 using xhci_hcd
+304:[   14.283391] usb 1-2: Device not responding to setup address.
+305:[   14.491236] usb 1-2: Device not responding to setup address.
+306:[   14.699196] usb 1-2: device not accepting address 14, error -71
+307:[   14.699288] usb 1-2: WARN: invalid context state for evaluate context command.
+308:[   14.699359] usb usb1-port2: unable to enumerate USB device
+309:[   14.915203] usb 1-2: new full-speed USB device number 15 using xhci_hcd
+310:[   15.028244] usb 1-2: device descriptor read/64, error -71
+311:[   16.851274] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+312:[   16.963202] usb 1-2: new full-speed USB device number 16 using xhci_hcd
+313:[   17.075228] usb 1-2: device descriptor read/64, error -71
+314:[   18.899248] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+315:[   18.899373] usb usb1-port2: attempt power cycle
+316:[   20.683245] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+317:[   20.795204] usb 1-2: new full-speed USB device number 18 using xhci_hcd
+318:[   20.795389] usb 1-2: Device not responding to setup address.
+319:[   21.003235] usb 1-2: Device not responding to setup address.
+320:[   21.211224] usb 1-2: device not accepting address 18, error -71
+321:[   21.211342] usb 1-2: WARN: invalid context state for evaluate context command.
+322:[   21.211416] usb usb1-port2: unable to enumerate USB device
+323:[   21.427209] usb 1-2: new full-speed USB device number 19 using xhci_hcd
+324:[   21.540240] usb 1-2: device descriptor read/64, error -71
+325:[   23.363252] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+326:[   23.475210] usb 1-2: new full-speed USB device number 20 using xhci_hcd
+327:[   23.588155] usb 1-2: device descriptor read/64, error -71
+328:[   25.411276] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+329:[   25.411410] usb usb1-port2: attempt power cycle
+330:[   27.195271] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+331:[   27.307207] usb 1-2: new full-speed USB device number 22 using xhci_hcd
+332:[   27.307394] usb 1-2: Device not responding to setup address.
+333:[   27.515253] usb 1-2: Device not responding to setup address.
+334:[   27.723204] usb 1-2: device not accepting address 22, error -71
+335:[   27.723318] usb 1-2: WARN: invalid context state for evaluate context command.
+336:[   27.723390] usb usb1-port2: unable to enumerate USB device
+337:[   27.939204] usb 1-2: new full-speed USB device number 23 using xhci_hcd
+338:[   28.052241] usb 1-2: device descriptor read/64, error -71
+339:[   29.875252] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+340:[   29.987207] usb 1-2: new full-speed USB device number 24 using xhci_hcd
+341:[   30.100240] usb 1-2: device descriptor read/64, error -71
+342:[   31.923275] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+343:[   31.923387] usb usb1-port2: attempt power cycle
+344:[   33.707249] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+345:[   33.819204] usb 1-2: new full-speed USB device number 26 using xhci_hcd
+346:[   33.819391] usb 1-2: Device not responding to setup address.
+347:[   34.027232] usb 1-2: Device not responding to setup address.
+348:[   34.235201] usb 1-2: device not accepting address 26, error -71
+349:[   34.235295] usb 1-2: WARN: invalid context state for evaluate context command.
+350:[   34.235366] usb usb1-port2: unable to enumerate USB device
+351:[   34.451207] usb 1-2: new full-speed USB device number 27 using xhci_hcd
+352:[   34.564234] usb 1-2: device descriptor read/64, error -71
+353:[   36.387252] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+354:[   36.499204] usb 1-2: new full-speed USB device number 28 using xhci_hcd
+355:[   36.612242] usb 1-2: device descriptor read/64, error -71
+356:[   38.435246] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+357:[   38.435358] usb usb1-port2: attempt power cycle
+358:[   40.219275] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+359:[   40.331205] usb 1-2: new full-speed USB device number 30 using xhci_hcd
+360:[   40.331393] usb 1-2: Device not responding to setup address.
+361:[   40.539236] usb 1-2: Device not responding to setup address.
+362:[   40.747197] usb 1-2: device not accepting address 30, error -71
+363:[   40.747290] usb 1-2: WARN: invalid context state for evaluate context command.
+364:[   40.747361] usb usb1-port2: unable to enumerate USB device
+365:[   40.776313] input: Logitech USB Receiver as /devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.4/1-1.4:1.3/0003:046D:C548.0007/input/input14
+366:[   40.776440] hid-multitouch 0003:046D:C548.0007: input,hidraw6: USB HID v1.11 Device [Logitech USB Receiver] on usb-0000:00:14.0-1.4/input3
+370:[   40.963080] usb 1-2: new full-speed USB device number 31 using xhci_hcd
+374:[   41.075058] usb 1-2: device descriptor read/64, error -71
+545:[   42.900664] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+546:[   43.016017] usb 1-2: new full-speed USB device number 32 using xhci_hcd
+547:[   43.128032] usb 1-2: device descriptor read/64, error -71
+550:[   44.955045] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+551:[   44.955113] usb usb1-port2: attempt power cycle
+553:[   46.740045] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+554:[   46.852031] usb 1-2: new full-speed USB device number 34 using xhci_hcd
+555:[   46.852139] usb 1-2: Device not responding to setup address.
+556:[   47.059094] usb 1-2: Device not responding to setup address.
+557:[   47.267007] usb 1-2: device not accepting address 34, error -71
+558:[   47.267043] usb 1-2: WARN: invalid context state for evaluate context command.
+559:[   47.267088] usb usb1-port2: unable to enumerate USB device
+560:[   47.485011] usb 1-2: new full-speed USB device number 35 using xhci_hcd
+561:[   47.599017] usb 1-2: device descriptor read/64, error -71
+562:[   49.427039] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+563:[   49.540010] usb 1-2: new full-speed USB device number 36 using xhci_hcd
+564:[   49.653018] usb 1-2: device descriptor read/64, error -71
+565:[   51.476022] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+566:[   51.476074] usb usb1-port2: attempt power cycle
+567:[   53.260025] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+568:[   53.372050] usb 1-2: new full-speed USB device number 38 using xhci_hcd
+569:[   53.372187] usb 1-2: Device not responding to setup address.
+570:[   53.579066] usb 1-2: Device not responding to setup address.
+571:[   53.787055] usb 1-2: device not accepting address 38, error -71
+572:[   53.787098] usb 1-2: WARN: invalid context state for evaluate context command.
+573:[   53.787129] usb usb1-port2: unable to enumerate USB device
+574:[   54.003041] usb 1-2: new full-speed USB device number 39 using xhci_hcd
+575:[   54.115093] usb 1-2: device descriptor read/64, error -71
+576:[   55.939130] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+577:[   56.051048] usb 1-2: new full-speed USB device number 40 using xhci_hcd
+578:[   56.163118] usb 1-2: device descriptor read/64, error -71
+579:[   57.987052] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+580:[   57.987096] usb usb1-port2: attempt power cycle
+582:[   59.771059] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+583:[   59.883089] usb 1-2: new full-speed USB device number 42 using xhci_hcd
+584:[   59.883238] usb 1-2: Device not responding to setup address.
+585:[   60.091073] usb 1-2: Device not responding to setup address.
+586:[   60.299038] usb 1-2: device not accepting address 42, error -71
+587:[   60.299066] usb 1-2: WARN: invalid context state for evaluate context command.
+588:[   60.299145] usb usb1-port2: unable to enumerate USB device
+589:[   60.515045] usb 1-2: new full-speed USB device number 43 using xhci_hcd
+590:[   60.627054] usb 1-2: device descriptor read/64, error -71
+600:[   62.451117] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+602:[   62.564010] usb 1-2: new full-speed USB device number 44 using xhci_hcd
+604:[   62.677023] usb 1-2: device descriptor read/64, error -71
+607:[   64.499027] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+608:[   64.499069] usb usb1-port2: attempt power cycle
+609:[   66.283054] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+610:[   66.395035] usb 1-2: new full-speed USB device number 46 using xhci_hcd
+611:[   66.395168] usb 1-2: Device not responding to setup address.
+612:[   66.603027] usb 1-2: Device not responding to setup address.
+613:[   66.811012] usb 1-2: device not accepting address 46, error -71
+614:[   66.811036] usb 1-2: WARN: invalid context state for evaluate context command.
+615:[   66.811127] usb usb1-port2: unable to enumerate USB device
+616:[   67.027064] usb 1-2: new full-speed USB device number 47 using xhci_hcd
+617:[   67.139050] usb 1-2: device descriptor read/64, error -71
+618:[   68.963050] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+619:[   69.075041] usb 1-2: new full-speed USB device number 48 using xhci_hcd
+620:[   69.187053] usb 1-2: device descriptor read/64, error -71
+621:[   71.011274] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+622:[   71.011389] usb usb1-port2: attempt power cycle
+623:[   72.795187] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+624:[   72.907138] usb 1-2: new full-speed USB device number 50 using xhci_hcd
+625:[   72.907321] usb 1-2: Device not responding to setup address.
+626:[   73.115140] usb 1-2: Device not responding to setup address.
+627:[   73.321611] usb 1-2: device not accepting address 50, error -71
+628:[   73.321709] usb 1-2: WARN: invalid context state for evaluate context command.
+629:[   73.321783] usb usb1-port2: unable to enumerate USB device
+630:[   73.535766] usb 1-2: new full-speed USB device number 51 using xhci_hcd
+631:[   73.646497] usb 1-2: device descriptor read/64, error -71
+632:[   75.455706] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+633:[   75.566756] usb 1-2: new full-speed USB device number 52 using xhci_hcd
+634:[   75.677984] usb 1-2: device descriptor read/64, error -71
+635:[   77.490596] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+636:[   77.490713] usb usb1-port2: attempt power cycle
+637:[   79.265737] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+638:[   79.377135] usb 1-2: new full-speed USB device number 54 using xhci_hcd
+639:[   79.377312] usb 1-2: Device not responding to setup address.
+640:[   79.584296] usb 1-2: Device not responding to setup address.
+641:[   79.791457] usb 1-2: device not accepting address 54, error -71
+642:[   79.791552] usb 1-2: WARN: invalid context state for evaluate context command.
+643:[   79.791624] usb usb1-port2: unable to enumerate USB device
+644:[   80.006415] usb 1-2: new full-speed USB device number 55 using xhci_hcd
+645:[   80.118092] usb 1-2: device descriptor read/64, error -71
+646:[   81.935892] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+647:[   82.047382] usb 1-2: new full-speed USB device number 56 using xhci_hcd
+648:[   82.159082] usb 1-2: device descriptor read/64, error -71
+649:[   83.978251] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+650:[   83.978366] usb usb1-port2: attempt power cycle
+651:[   85.758567] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+652:[   85.870395] usb 1-2: new full-speed USB device number 58 using xhci_hcd
+653:[   85.870649] usb 1-2: Device not responding to setup address.
+654:[   86.077975] usb 1-2: Device not responding to setup address.
+655:[   86.285669] usb 1-2: device not accepting address 58, error -71
+656:[   86.285771] usb 1-2: WARN: invalid context state for evaluate context command.
+657:[   86.285849] usb usb1-port2: unable to enumerate USB device
+658:[   86.501321] usb 1-2: new full-speed USB device number 59 using xhci_hcd
+659:[   86.613127] usb 1-2: device descriptor read/64, error -71
+660:[   88.434382] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+661:[   88.546176] usb 1-2: new full-speed USB device number 60 using xhci_hcd
+662:[   88.658140] usb 1-2: device descriptor read/64, error -71
+663:[   90.480132] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+664:[   90.480272] usb usb1-port2: attempt power cycle
+665:[   92.262645] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+666:[   92.374502] usb 1-2: new full-speed USB device number 62 using xhci_hcd
+667:[   92.374690] usb 1-2: Device not responding to setup address.
+668:[   92.582420] usb 1-2: Device not responding to setup address.
+669:[   92.790205] usb 1-2: device not accepting address 62, error -71
+670:[   92.790305] usb 1-2: WARN: invalid context state for evaluate context command.
+671:[   92.790378] usb usb1-port2: unable to enumerate USB device
+680:[   92.943687] usbcore: registered new interface driver btusb
+681:[   92.959756] usb 1-6: Found UVC 1.10 device Integrated Camera (174f:244c)
+682:[   92.979501] usbcore: registered new interface driver uvcvideo
+686:[   93.005831] usb 1-2: new full-speed USB device number 63 using xhci_hcd
+687:[   93.117929] usb 1-2: device descriptor read/64, error -71
+688:[   94.940826] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+690:[   95.052796] usb 1-2: new full-speed USB device number 64 using xhci_hcd
+691:[   95.164756] usb 1-2: device descriptor read/64, error -71
+692:[   96.987887] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+693:[   96.988002] usb usb1-port2: attempt power cycle
+694:[   98.771291] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+695:[   98.883212] usb 1-2: new full-speed USB device number 66 using xhci_hcd
+696:[   98.883394] usb 1-2: Device not responding to setup address.
+697:[   99.091155] usb 1-2: Device not responding to setup address.
+698:[   99.298994] usb 1-2: device not accepting address 66, error -71
+699:[   99.299092] usb 1-2: WARN: invalid context state for evaluate context command.
+700:[   99.299166] usb usb1-port2: unable to enumerate USB device
+701:[   99.515015] usb 1-2: new full-speed USB device number 67 using xhci_hcd
+702:[   99.626908] usb 1-2: device descriptor read/64, error -71
+703:[  101.451321] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+704:[  101.565342] usb 1-2: new full-speed USB device number 68 using xhci_hcd
+705:[  101.677266] usb 1-2: device descriptor read/64, error -71
+706:[  103.498069] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+707:[  103.498186] usb usb1-port2: attempt power cycle
+708:[  105.281851] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+709:[  105.393812] usb 1-2: new full-speed USB device number 70 using xhci_hcd
+710:[  105.394002] usb 1-2: Device not responding to setup address.
+711:[  105.601725] usb 1-2: Device not responding to setup address.
+712:[  105.809644] usb 1-2: device not accepting address 70, error -71
+713:[  105.809743] usb 1-2: WARN: invalid context state for evaluate context command.
+714:[  105.809816] usb usb1-port2: unable to enumerate USB device
+715:[  106.025581] usb 1-2: new full-speed USB device number 71 using xhci_hcd
+716:[  106.137660] usb 1-2: device descriptor read/64, error -71
+717:[  107.961538] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+718:[  108.073447] usb 1-2: new full-speed USB device number 72 using xhci_hcd
+719:[  108.185480] usb 1-2: device descriptor read/64, error -71
+720:[  110.009323] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+721:[  110.009437] usb usb1-port2: attempt power cycle
+722:[  111.793276] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+723:[  111.905175] usb 1-2: new full-speed USB device number 74 using xhci_hcd
+724:[  111.905358] usb 1-2: Device not responding to setup address.
+725:[  112.113253] usb 1-2: Device not responding to setup address.
+726:[  112.321199] usb 1-2: device not accepting address 74, error -71
+727:[  112.321294] usb 1-2: WARN: invalid context state for evaluate context command.
+728:[  112.321366] usb usb1-port2: unable to enumerate USB device
+729:[  112.537104] usb 1-2: new full-speed USB device number 75 using xhci_hcd
+730:[  112.649052] usb 1-2: device descriptor read/64, error -71
+731:[  114.473129] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+732:[  114.585953] usb 1-2: new full-speed USB device number 76 using xhci_hcd
+733:[  114.699029] usb 1-2: device descriptor read/64, error -71
+734:[  116.520931] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+735:[  116.521049] usb usb1-port2: attempt power cycle
+736:[  118.304831] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+737:[  118.416735] usb 1-2: new full-speed USB device number 78 using xhci_hcd
+738:[  118.416925] usb 1-2: Device not responding to setup address.
+739:[  118.624827] usb 1-2: Device not responding to setup address.
+740:[  118.832850] usb 1-2: device not accepting address 78, error -71
+741:[  118.832946] usb 1-2: WARN: invalid context state for evaluate context command.
+742:[  118.833019] usb usb1-port2: unable to enumerate USB device
+743:[  119.048766] usb 1-2: new full-speed USB device number 79 using xhci_hcd
+744:[  119.160864] usb 1-2: device descriptor read/64, error -71
+745:[  120.984737] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+746:[  121.096621] usb 1-2: new full-speed USB device number 80 using xhci_hcd
+747:[  121.208708] usb 1-2: device descriptor read/64, error -71
+748:[  123.032711] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+749:[  123.032825] usb usb1-port2: attempt power cycle
+750:[  124.816458] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+751:[  124.928466] usb 1-2: new full-speed USB device number 82 using xhci_hcd
+752:[  124.928672] usb 1-2: Device not responding to setup address.
+753:[  125.136471] usb 1-2: Device not responding to setup address.
+754:[  125.344426] usb 1-2: device not accepting address 82, error -71
+755:[  125.344468] usb 1-2: WARN: invalid context state for evaluate context command.
+756:[  125.344510] usb usb1-port2: unable to enumerate USB device
+757:[  125.562401] usb 1-2: new full-speed USB device number 83 using xhci_hcd
+758:[  125.675419] usb 1-2: device descriptor read/64, error -71
+759:[  127.497340] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+760:[  127.610291] usb 1-2: new full-speed USB device number 84 using xhci_hcd
+761:[  127.723887] usb 1-2: device descriptor read/64, error -71
+762:[  129.544474] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+763:[  129.544590] usb usb1-port2: attempt power cycle
+764:[  131.328326] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+765:[  131.442265] usb 1-2: new full-speed USB device number 86 using xhci_hcd
+766:[  131.442448] usb 1-2: Device not responding to setup address.
+767:[  131.648278] usb 1-2: Device not responding to setup address.
+768:[  131.856214] usb 1-2: device not accepting address 86, error -71
+769:[  131.856258] usb 1-2: WARN: invalid context state for evaluate context command.
+770:[  131.856301] usb usb1-port2: unable to enumerate USB device
+771:[  132.073288] usb 1-2: new full-speed USB device number 87 using xhci_hcd
+772:[  132.185268] usb 1-2: device descriptor read/64, error -71
+773:[  134.008301] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+774:[  134.120176] usb 1-2: new full-speed USB device number 88 using xhci_hcd
+775:[  134.232209] usb 1-2: device descriptor read/64, error -71
+776:[  136.056213] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+777:[  136.056332] usb usb1-port2: attempt power cycle
+778:[  137.841176] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+779:[  137.953067] usb 1-2: new full-speed USB device number 90 using xhci_hcd
+780:[  137.953242] usb 1-2: Device not responding to setup address.
+781:[  138.160145] usb 1-2: Device not responding to setup address.
+782:[  138.368084] usb 1-2: device not accepting address 90, error -71
+783:[  138.368187] usb 1-2: WARN: invalid context state for evaluate context command.
+784:[  138.368258] usb usb1-port2: unable to enumerate USB device
+785:[  138.584131] usb 1-2: new full-speed USB device number 91 using xhci_hcd
+786:[  138.696278] usb 1-2: device descriptor read/64, error -71
+787:[  140.521111] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+788:[  140.634990] usb 1-2: new full-speed USB device number 92 using xhci_hcd
+789:[  140.747677] usb 1-2: device descriptor read/64, error -71
+790:[  142.568994] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+791:[  142.569108] usb usb1-port2: attempt power cycle
+792:[  144.352043] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+793:[  144.463929] usb 1-2: new full-speed USB device number 94 using xhci_hcd
+794:[  144.464130] usb 1-2: Device not responding to setup address.
+795:[  144.672078] usb 1-2: Device not responding to setup address.
+796:[  144.879951] usb 1-2: device not accepting address 94, error -71
+797:[  144.880046] usb 1-2: WARN: invalid context state for evaluate context command.
+798:[  144.880116] usb usb1-port2: unable to enumerate USB device
+799:[  145.098931] usb 1-2: new full-speed USB device number 95 using xhci_hcd
+800:[  145.211071] usb 1-2: device descriptor read/64, error -71
+801:[  147.031920] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+802:[  147.144050] usb 1-2: new full-speed USB device number 96 using xhci_hcd
+803:[  147.256043] usb 1-2: device descriptor read/64, error -71
+804:[  149.080016] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+805:[  149.080133] usb usb1-port2: attempt power cycle
+806:[  150.863979] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+807:[  150.975987] usb 1-2: new full-speed USB device number 98 using xhci_hcd
+808:[  150.976170] usb 1-2: Device not responding to setup address.
+809:[  151.184019] usb 1-2: Device not responding to setup address.
+810:[  151.391968] usb 1-2: device not accepting address 98, error -71
+811:[  151.392101] usb 1-2: WARN: invalid context state for evaluate context command.
+812:[  151.392176] usb usb1-port2: unable to enumerate USB device
+813:[  151.607862] usb 1-2: new full-speed USB device number 99 using xhci_hcd
+814:[  151.719889] usb 1-2: device descriptor read/64, error -71
+815:[  153.543940] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+816:[  153.655946] usb 1-2: new full-speed USB device number 100 using xhci_hcd
+817:[  153.767890] usb 1-2: device descriptor read/64, error -71
+818:[  155.591912] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+819:[  155.592030] usb usb1-port2: attempt power cycle
+820:[  157.375862] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+821:[  157.488752] usb 1-2: new full-speed USB device number 102 using xhci_hcd
+822:[  157.488869] usb 1-2: Device not responding to setup address.
+823:[  157.695852] usb 1-2: Device not responding to setup address.
+824:[  157.903786] usb 1-2: device not accepting address 102, error -71
+825:[  157.903833] usb 1-2: WARN: invalid context state for evaluate context command.
+826:[  157.903872] usb usb1-port2: unable to enumerate USB device
+827:[  158.120703] usb 1-2: new full-speed USB device number 103 using xhci_hcd
+828:[  158.232782] usb 1-2: device descriptor read/64, error -71
+829:[  160.056798] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+830:[  160.169738] usb 1-2: new full-speed USB device number 104 using xhci_hcd
+831:[  160.282701] usb 1-2: device descriptor read/64, error -71
+832:[  162.104787] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+833:[  162.104896] usb usb1-port2: attempt power cycle
+834:[  163.887773] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+835:[  164.000688] usb 1-2: new full-speed USB device number 106 using xhci_hcd
+836:[  164.000868] usb 1-2: Device not responding to setup address.
+837:[  164.207752] usb 1-2: Device not responding to setup address.
+838:[  164.415679] usb 1-2: device not accepting address 106, error -71
+839:[  164.415766] usb 1-2: WARN: invalid context state for evaluate context command.
+840:[  164.415835] usb usb1-port2: unable to enumerate USB device
+841:[  164.632652] usb 1-2: new full-speed USB device number 107 using xhci_hcd
+842:[  164.744761] usb 1-2: device descriptor read/64, error -71
+843:[  166.567746] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+844:[  166.679718] usb 1-2: new full-speed USB device number 108 using xhci_hcd
+845:[  166.791815] usb 1-2: device descriptor read/64, error -71
+846:[  168.615714] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+847:[  168.615828] usb usb1-port2: attempt power cycle
+848:[  170.400657] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+849:[  170.512591] usb 1-2: new full-speed USB device number 110 using xhci_hcd
+850:[  170.512784] usb 1-2: Device not responding to setup address.
+851:[  170.720655] usb 1-2: Device not responding to setup address.
+852:[  170.927670] usb 1-2: device not accepting address 110, error -71
+853:[  170.927773] usb 1-2: WARN: invalid context state for evaluate context command.
+854:[  170.927847] usb usb1-port2: unable to enumerate USB device
+855:[  171.145591] usb 1-2: new full-speed USB device number 111 using xhci_hcd
+856:[  171.258708] usb 1-2: device descriptor read/64, error -71
+857:[  173.080645] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+858:[  173.192579] usb 1-2: new full-speed USB device number 112 using xhci_hcd
+859:[  173.306613] usb 1-2: device descriptor read/64, error -71
+860:[  175.127685] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+861:[  175.127800] usb usb1-port2: attempt power cycle
+862:[  176.911810] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+863:[  177.023685] usb 1-2: new full-speed USB device number 114 using xhci_hcd
+864:[  177.023872] usb 1-2: Device not responding to setup address.
+865:[  177.231665] usb 1-2: Device not responding to setup address.
+866:[  177.439641] usb 1-2: device not accepting address 114, error -71
+867:[  177.439744] usb 1-2: WARN: invalid context state for evaluate context command.
+868:[  177.439815] usb usb1-port2: unable to enumerate USB device
+869:[  177.657656] usb 1-2: new full-speed USB device number 115 using xhci_hcd
+870:[  177.769642] usb 1-2: device descriptor read/64, error -71
+871:[  179.591695] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+872:[  179.703656] usb 1-2: new full-speed USB device number 116 using xhci_hcd
+873:[  179.815703] usb 1-2: device descriptor read/64, error -71
+874:[  181.639638] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+875:[  181.639686] usb usb1-port2: attempt power cycle
+876:[  183.423711] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+877:[  183.535636] usb 1-2: new full-speed USB device number 118 using xhci_hcd
+878:[  183.535774] usb 1-2: Device not responding to setup address.
+879:[  183.743648] usb 1-2: Device not responding to setup address.
+880:[  183.951635] usb 1-2: device not accepting address 118, error -71
+881:[  183.951749] usb 1-2: WARN: invalid context state for evaluate context command.
+882:[  183.951820] usb usb1-port2: unable to enumerate USB device
+883:[  184.169572] usb 1-2: new full-speed USB device number 119 using xhci_hcd
+884:[  184.281648] usb 1-2: device descriptor read/64, error -71
+885:[  186.103609] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+886:[  186.218610] usb 1-2: new full-speed USB device number 120 using xhci_hcd
+887:[  186.331640] usb 1-2: device descriptor read/64, error -71
+888:[  188.159646] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+889:[  188.159710] usb usb1-port2: attempt power cycle
+890:[  189.943625] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+891:[  190.056568] usb 1-2: new full-speed USB device number 122 using xhci_hcd
+892:[  190.056692] usb 1-2: Device not responding to setup address.
+893:[  190.263689] usb 1-2: Device not responding to setup address.
+894:[  190.471600] usb 1-2: device not accepting address 122, error -71
+895:[  190.471652] usb 1-2: WARN: invalid context state for evaluate context command.
+896:[  190.471687] usb usb1-port2: unable to enumerate USB device
+897:[  190.688579] usb 1-2: new full-speed USB device number 123 using xhci_hcd
+898:[  190.800582] usb 1-2: device descriptor read/64, error -71
+899:[  192.623750] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+900:[  192.735713] usb 1-2: new full-speed USB device number 124 using xhci_hcd
+901:[  192.848632] usb 1-2: device descriptor read/64, error -71
+902:[  194.671662] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+903:[  194.671770] usb usb1-port2: attempt power cycle
+904:[  196.456627] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+905:[  196.568583] usb 1-2: new full-speed USB device number 126 using xhci_hcd
+906:[  196.568726] usb 1-2: Device not responding to setup address.
+907:[  196.775724] usb 1-2: Device not responding to setup address.
+908:[  196.983657] usb 1-2: device not accepting address 126, error -71
+909:[  196.983764] usb 1-2: WARN: invalid context state for evaluate context command.
+910:[  196.983839] usb usb1-port2: unable to enumerate USB device
+911:[  197.200574] usb 1-2: new full-speed USB device number 127 using xhci_hcd
+912:[  197.312620] usb 1-2: device descriptor read/64, error -71
+913:[  199.135724] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+914:[  199.247597] usb 1-2: new full-speed USB device number 3 using xhci_hcd
+915:[  199.359695] usb 1-2: device descriptor read/64, error -71
+916:[  201.183747] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+917:[  201.183862] usb usb1-port2: attempt power cycle
+918:[  202.969060] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+919:[  203.080554] usb 1-2: new full-speed USB device number 6 using xhci_hcd
+920:[  203.080767] usb 1-2: Device not responding to setup address.
+921:[  203.289035] usb 1-2: Device not responding to setup address.
+922:[  203.495622] usb 1-2: device not accepting address 6, error -71
+923:[  203.495718] usb 1-2: WARN: invalid context state for evaluate context command.
+924:[  203.495796] usb usb1-port2: unable to enumerate USB device
+925:[  203.711665] usb 1-2: new full-speed USB device number 7 using xhci_hcd
+926:[  203.823680] usb 1-2: device descriptor read/64, error -71
+927:[  205.648555] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+928:[  205.760558] usb 1-2: new full-speed USB device number 11 using xhci_hcd
+929:[  205.872666] usb 1-2: device descriptor read/64, error -71
+930:[  207.695690] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+931:[  207.695805] usb usb1-port2: attempt power cycle
+932:[  209.479582] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+933:[  209.591638] usb 1-2: new full-speed USB device number 13 using xhci_hcd
+934:[  209.591820] usb 1-2: Device not responding to setup address.
+935:[  209.799560] usb 1-2: Device not responding to setup address.
+936:[  210.007540] usb 1-2: device not accepting address 13, error -71
+937:[  210.007661] usb 1-2: WARN: invalid context state for evaluate context command.
+938:[  210.007761] usb usb1-port2: unable to enumerate USB device
+939:[  210.223609] usb 1-2: new full-speed USB device number 14 using xhci_hcd
+940:[  210.335720] usb 1-2: device descriptor read/64, error -71
+941:[  212.159605] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+942:[  212.271588] usb 1-2: new full-speed USB device number 15 using xhci_hcd
+943:[  212.383661] usb 1-2: device descriptor read/64, error -71
+944:[  214.207548] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+945:[  214.207662] usb usb1-port2: attempt power cycle
+946:[  215.991605] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+947:[  216.104602] usb 1-2: new full-speed USB device number 17 using xhci_hcd
+948:[  216.104787] usb 1-2: Device not responding to setup address.
+949:[  216.311635] usb 1-2: Device not responding to setup address.
+950:[  216.519554] usb 1-2: device not accepting address 17, error -71
+951:[  216.519646] usb 1-2: WARN: invalid context state for evaluate context command.
+952:[  216.519716] usb usb1-port2: unable to enumerate USB device
+953:[  216.735597] usb 1-2: new full-speed USB device number 18 using xhci_hcd
+954:[  216.847588] usb 1-2: device descriptor read/64, error -71
+955:[  218.671561] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+956:[  218.783591] usb 1-2: new full-speed USB device number 19 using xhci_hcd
+957:[  218.895607] usb 1-2: device descriptor read/64, error -71
+958:[  220.719619] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+959:[  220.719735] usb usb1-port2: attempt power cycle
+960:[  222.503588] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+961:[  222.615590] usb 1-2: new full-speed USB device number 21 using xhci_hcd
+962:[  222.615801] usb 1-2: Device not responding to setup address.
+963:[  222.823691] usb 1-2: Device not responding to setup address.
+964:[  223.031535] usb 1-2: device not accepting address 21, error -71
+965:[  223.031629] usb 1-2: WARN: invalid context state for evaluate context command.
+966:[  223.031702] usb usb1-port2: unable to enumerate USB device
+967:[  223.248507] usb 1-2: new full-speed USB device number 22 using xhci_hcd
+968:[  223.360527] usb 1-2: device descriptor read/64, error -71
+969:[  225.183653] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+970:[  225.295605] usb 1-2: new full-speed USB device number 23 using xhci_hcd
+971:[  225.407513] usb 1-2: device descriptor read/64, error -71
+972:[  227.231654] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+973:[  227.231768] usb usb1-port2: attempt power cycle
+974:[  229.015657] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+975:[  229.127504] usb 1-2: new full-speed USB device number 25 using xhci_hcd
+976:[  229.127759] usb 1-2: Device not responding to setup address.
+977:[  229.335643] usb 1-2: Device not responding to setup address.
+978:[  229.543604] usb 1-2: device not accepting address 25, error -71
+979:[  229.543702] usb 1-2: WARN: invalid context state for evaluate context command.
+980:[  229.543776] usb usb1-port2: unable to enumerate USB device
+981:[  229.759512] usb 1-2: new full-speed USB device number 26 using xhci_hcd
+982:[  229.871513] usb 1-2: device descriptor read/64, error -71
+983:[  231.695502] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+984:[  231.809189] usb 1-2: new full-speed USB device number 27 using xhci_hcd
+985:[  231.921520] usb 1-2: device descriptor read/64, error -71
+986:[  233.744499] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+987:[  233.744615] usb usb1-port2: attempt power cycle
+988:[  235.529322] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+989:[  235.642362] usb 1-2: new full-speed USB device number 29 using xhci_hcd
+990:[  235.642552] usb 1-2: Device not responding to setup address.
+991:[  235.847426] usb 1-2: Device not responding to setup address.
+992:[  236.055477] usb 1-2: device not accepting address 29, error -71
+993:[  236.055571] usb 1-2: WARN: invalid context state for evaluate context command.
+994:[  236.055643] usb usb1-port2: unable to enumerate USB device
+995:[  236.271360] usb 1-2: new full-speed USB device number 30 using xhci_hcd
+996:[  236.383500] usb 1-2: device descriptor read/64, error -71
+997:[  238.207534] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+998:[  238.319466] usb 1-2: new full-speed USB device number 31 using xhci_hcd
+999:[  238.431583] usb 1-2: device descriptor read/64, error -71
+1000:[  240.255582] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1001:[  240.255700] usb usb1-port2: attempt power cycle
+1002:[  242.039487] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1003:[  242.151500] usb 1-2: new full-speed USB device number 33 using xhci_hcd
+1004:[  242.151684] usb 1-2: Device not responding to setup address.
+1005:[  242.359444] usb 1-2: Device not responding to setup address.
+1006:[  242.567371] usb 1-2: device not accepting address 33, error -71
+1007:[  242.567433] usb 1-2: WARN: invalid context state for evaluate context command.
+1008:[  242.567476] usb usb1-port2: unable to enumerate USB device
+1009:[  242.783516] usb 1-2: new full-speed USB device number 34 using xhci_hcd
+1010:[  242.895538] usb 1-2: device descriptor read/64, error -71
+1011:[  244.719467] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1012:[  244.831362] usb 1-2: new full-speed USB device number 35 using xhci_hcd
+1013:[  244.943491] usb 1-2: device descriptor read/64, error -71
+1014:[  246.767379] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1015:[  246.767494] usb usb1-port2: attempt power cycle
+1016:[  248.552376] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1017:[  248.664297] usb 1-2: new full-speed USB device number 37 using xhci_hcd
+1018:[  248.664478] usb 1-2: Device not responding to setup address.
+1019:[  248.871328] usb 1-2: Device not responding to setup address.
+1020:[  249.079380] usb 1-2: device not accepting address 37, error -71
+1021:[  249.079482] usb 1-2: WARN: invalid context state for evaluate context command.
+1022:[  249.079556] usb usb1-port2: unable to enumerate USB device
+1023:[  249.295463] usb 1-2: new full-speed USB device number 38 using xhci_hcd
+1024:[  249.407364] usb 1-2: device descriptor read/64, error -71
+1025:[  251.231483] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1026:[  251.343429] usb 1-2: new full-speed USB device number 39 using xhci_hcd
+1027:[  251.455285] usb 1-2: device descriptor read/64, error -71
+1028:[  253.280328] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1029:[  253.280438] usb usb1-port2: attempt power cycle
+1030:[  255.063306] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1031:[  255.175262] usb 1-2: new full-speed USB device number 41 using xhci_hcd
+1032:[  255.175446] usb 1-2: Device not responding to setup address.
+1033:[  255.383344] usb 1-2: Device not responding to setup address.
+1034:[  255.591208] usb 1-2: device not accepting address 41, error -71
+1035:[  255.591307] usb 1-2: WARN: invalid context state for evaluate context command.
+1036:[  255.591378] usb usb1-port2: unable to enumerate USB device
+1037:[  255.809224] usb 1-2: new full-speed USB device number 42 using xhci_hcd
+1038:[  255.921320] usb 1-2: device descriptor read/64, error -71
+1039:[  257.743272] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1040:[  257.855277] usb 1-2: new full-speed USB device number 43 using xhci_hcd
+1041:[  257.967179] usb 1-2: device descriptor read/64, error -71
+1042:[  259.791412] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1043:[  259.791527] usb usb1-port2: attempt power cycle
+1044:[  261.575321] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1045:[  261.687268] usb 1-2: new full-speed USB device number 45 using xhci_hcd
+1046:[  261.687451] usb 1-2: Device not responding to setup address.
+1047:[  261.895325] usb 1-2: Device not responding to setup address.
+1048:[  262.103329] usb 1-2: device not accepting address 45, error -71
+1049:[  262.103436] usb 1-2: WARN: invalid context state for evaluate context command.
+1050:[  262.103509] usb usb1-port2: unable to enumerate USB device
+1051:[  262.319231] usb 1-2: new full-speed USB device number 46 using xhci_hcd
+1052:[  262.431300] usb 1-2: device descriptor read/64, error -71
+1053:[  264.255403] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1054:[  264.367242] usb 1-2: new full-speed USB device number 47 using xhci_hcd
+1055:[  264.479303] usb 1-2: device descriptor read/64, error -71
+1056:[  266.303349] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1057:[  266.303463] usb usb1-port2: attempt power cycle
+1058:[  268.087267] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1059:[  268.199242] usb 1-2: new full-speed USB device number 49 using xhci_hcd
+1060:[  268.199423] usb 1-2: Device not responding to setup address.
+1061:[  268.407313] usb 1-2: Device not responding to setup address.
+1062:[  268.615155] usb 1-2: device not accepting address 49, error -71
+1063:[  268.615253] usb 1-2: WARN: invalid context state for evaluate context command.
+1064:[  268.615323] usb usb1-port2: unable to enumerate USB device
+1065:[  268.831311] usb 1-2: new full-speed USB device number 50 using xhci_hcd
+1066:[  268.943140] usb 1-2: device descriptor read/64, error -71
+1067:[  270.767262] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1068:[  270.880092] usb 1-2: new full-speed USB device number 51 using xhci_hcd
+1069:[  270.992172] usb 1-2: device descriptor read/64, error -71
+1070:[  272.815341] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1071:[  272.815456] usb usb1-port2: attempt power cycle
+1072:[  274.599203] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1073:[  274.711238] usb 1-2: new full-speed USB device number 53 using xhci_hcd
+1074:[  274.711422] usb 1-2: Device not responding to setup address.
+1075:[  274.919163] usb 1-2: Device not responding to setup address.
+1076:[  275.127248] usb 1-2: device not accepting address 53, error -71
+1077:[  275.127349] usb 1-2: WARN: invalid context state for evaluate context command.
+1078:[  275.127424] usb usb1-port2: unable to enumerate USB device
+1079:[  275.343232] usb 1-2: new full-speed USB device number 54 using xhci_hcd
+1080:[  275.455045] usb 1-2: device descriptor read/64, error -71
+1081:[  277.279146] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1082:[  277.391179] usb 1-2: new full-speed USB device number 55 using xhci_hcd
+1083:[  277.503260] usb 1-2: device descriptor read/64, error -71
+1084:[  279.327259] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1085:[  279.327378] usb usb1-port2: attempt power cycle
+1086:[  281.111059] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1087:[  281.223097] usb 1-2: new full-speed USB device number 57 using xhci_hcd
+1088:[  281.223296] usb 1-2: Device not responding to setup address.
+1089:[  281.431127] usb 1-2: Device not responding to setup address.
+1090:[  281.639158] usb 1-2: device not accepting address 57, error -71
+1091:[  281.639252] usb 1-2: WARN: invalid context state for evaluate context command.
+1092:[  281.639326] usb usb1-port2: unable to enumerate USB device
+1093:[  281.855174] usb 1-2: new full-speed USB device number 58 using xhci_hcd
+1094:[  281.967215] usb 1-2: device descriptor read/64, error -71
+1095:[  283.791213] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1096:[  283.903158] usb 1-2: new full-speed USB device number 59 using xhci_hcd
+1097:[  284.015131] usb 1-2: device descriptor read/64, error -71
+1098:[  285.839173] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1099:[  285.839287] usb usb1-port2: attempt power cycle
+1100:[  287.623051] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1101:[  287.735054] usb 1-2: new full-speed USB device number 61 using xhci_hcd
+1102:[  287.735246] usb 1-2: Device not responding to setup address.
+1103:[  287.943084] usb 1-2: Device not responding to setup address.
+1104:[  288.151133] usb 1-2: device not accepting address 61, error -71
+1105:[  288.151238] usb 1-2: WARN: invalid context state for evaluate context command.
+1106:[  288.151312] usb usb1-port2: unable to enumerate USB device
+1107:[  288.367068] usb 1-2: new full-speed USB device number 62 using xhci_hcd
+1108:[  288.479103] usb 1-2: device descriptor read/64, error -71
+1109:[  290.303180] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1110:[  290.415111] usb 1-2: new full-speed USB device number 63 using xhci_hcd
+1111:[  290.527121] usb 1-2: device descriptor read/64, error -71
+1112:[  292.351032] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1113:[  292.351148] usb usb1-port2: attempt power cycle
+1114:[  294.135141] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1115:[  294.247066] usb 1-2: new full-speed USB device number 65 using xhci_hcd
+1116:[  294.247249] usb 1-2: Device not responding to setup address.
+1117:[  294.455101] usb 1-2: Device not responding to setup address.
+1118:[  294.663014] usb 1-2: device not accepting address 65, error -71
+1119:[  294.663116] usb 1-2: WARN: invalid context state for evaluate context command.
+1120:[  294.663191] usb usb1-port2: unable to enumerate USB device
+1121:[  294.879012] usb 1-2: new full-speed USB device number 66 using xhci_hcd
+1122:[  294.991972] usb 1-2: device descriptor read/64, error -71
+1123:[  296.814918] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1124:[  296.927074] usb 1-2: new full-speed USB device number 67 using xhci_hcd
+1125:[  297.039009] usb 1-2: device descriptor read/64, error -71
+1126:[  298.863134] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1127:[  298.863250] usb usb1-port2: attempt power cycle
+1128:[  300.647211] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1129:[  300.759048] usb 1-2: new full-speed USB device number 69 using xhci_hcd
+1130:[  300.759237] usb 1-2: Device not responding to setup address.
+1131:[  300.967166] usb 1-2: Device not responding to setup address.
+1132:[  301.175153] usb 1-2: device not accepting address 69, error -71
+1133:[  301.175261] usb 1-2: WARN: invalid context state for evaluate context command.
+1134:[  301.175334] usb usb1-port2: unable to enumerate USB device
+1135:[  301.391021] usb 1-2: new full-speed USB device number 70 using xhci_hcd
+1136:[  301.503189] usb 1-2: device descriptor read/64, error -71
+1137:[  303.328118] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1138:[  303.440126] usb 1-2: new full-speed USB device number 71 using xhci_hcd
+1139:[  303.552281] usb 1-2: device descriptor read/64, error -71
+1140:[  305.375331] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1141:[  305.375448] usb usb1-port2: attempt power cycle
+1142:[  307.160302] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1143:[  307.273185] usb 1-2: new full-speed USB device number 73 using xhci_hcd
+1144:[  307.273355] usb 1-2: Device not responding to setup address.
+1145:[  307.479268] usb 1-2: Device not responding to setup address.
+1146:[  307.688246] usb 1-2: device not accepting address 73, error -71
+1147:[  307.688349] usb 1-2: WARN: invalid context state for evaluate context command.
+1148:[  307.688425] usb usb1-port2: unable to enumerate USB device
+1149:[  307.906334] usb 1-2: new full-speed USB device number 74 using xhci_hcd
+1150:[  308.018289] usb 1-2: device descriptor read/64, error -71
+1151:[  309.839376] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1152:[  309.951419] usb 1-2: new full-speed USB device number 75 using xhci_hcd
+1153:[  310.063343] usb 1-2: device descriptor read/64, error -71
+1154:[  311.887514] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1155:[  311.887629] usb usb1-port2: attempt power cycle
+1156:[  313.671440] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1157:[  313.783393] usb 1-2: new full-speed USB device number 77 using xhci_hcd
+1158:[  313.783566] usb 1-2: Device not responding to setup address.
+1159:[  313.991433] usb 1-2: Device not responding to setup address.
+1160:[  314.199442] usb 1-2: device not accepting address 77, error -71
+1161:[  314.199544] usb 1-2: WARN: invalid context state for evaluate context command.
+1162:[  314.199616] usb usb1-port2: unable to enumerate USB device
+1163:[  314.415424] usb 1-2: new full-speed USB device number 78 using xhci_hcd
+1164:[  314.527560] usb 1-2: device descriptor read/64, error -71
+1165:[  316.351479] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1166:[  316.463377] usb 1-2: new full-speed USB device number 79 using xhci_hcd
+1167:[  316.575542] usb 1-2: device descriptor read/64, error -71
+1168:[  318.399584] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1169:[  318.399702] usb usb1-port2: attempt power cycle
+1170:[  320.183593] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1171:[  320.295456] usb 1-2: new full-speed USB device number 81 using xhci_hcd
+1172:[  320.295640] usb 1-2: Device not responding to setup address.
+1173:[  320.503568] usb 1-2: Device not responding to setup address.
+1174:[  320.711574] usb 1-2: device not accepting address 81, error -71
+1175:[  320.711697] usb 1-2: WARN: invalid context state for evaluate context command.
+1176:[  320.711771] usb usb1-port2: unable to enumerate USB device
+1177:[  320.927678] usb 1-2: new full-speed USB device number 82 using xhci_hcd
+1178:[  321.039605] usb 1-2: device descriptor read/64, error -71
+1179:[  322.863758] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1180:[  322.975496] usb 1-2: new full-speed USB device number 83 using xhci_hcd
+1181:[  323.087685] usb 1-2: device descriptor read/64, error -71
+1182:[  324.911803] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1183:[  324.911918] usb usb1-port2: attempt power cycle
+1184:[  326.695752] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1185:[  326.807699] usb 1-2: new full-speed USB device number 85 using xhci_hcd
+1186:[  326.807876] usb 1-2: Device not responding to setup address.
+1187:[  327.015767] usb 1-2: Device not responding to setup address.
+1188:[  327.223689] usb 1-2: device not accepting address 85, error -71
+1189:[  327.223728] usb 1-2: WARN: invalid context state for evaluate context command.
+1190:[  327.223805] usb usb1-port2: unable to enumerate USB device
+1191:[  327.439730] usb 1-2: new full-speed USB device number 86 using xhci_hcd
+1192:[  327.551737] usb 1-2: device descriptor read/64, error -71
+1193:[  329.375841] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1194:[  329.487715] usb 1-2: new full-speed USB device number 87 using xhci_hcd
+1195:[  329.599798] usb 1-2: device descriptor read/64, error -71
+1196:[  331.423894] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1197:[  331.424008] usb usb1-port2: attempt power cycle
+1198:[  333.207842] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1199:[  333.319799] usb 1-2: new full-speed USB device number 89 using xhci_hcd
+1200:[  333.319986] usb 1-2: Device not responding to setup address.
+1201:[  333.527858] usb 1-2: Device not responding to setup address.
+1202:[  333.735912] usb 1-2: device not accepting address 89, error -71
+1203:[  333.736012] usb 1-2: WARN: invalid context state for evaluate context command.
+1204:[  333.736086] usb usb1-port2: unable to enumerate USB device
+1205:[  333.951900] usb 1-2: new full-speed USB device number 90 using xhci_hcd
+1206:[  334.063751] usb 1-2: device descriptor read/64, error -71
+1207:[  335.887858] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1208:[  335.999871] usb 1-2: new full-speed USB device number 91 using xhci_hcd
+1209:[  336.111994] usb 1-2: device descriptor read/64, error -71
+1210:[  337.936031] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1211:[  337.936148] usb usb1-port2: attempt power cycle
+1212:[  339.719939] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1213:[  339.831984] usb 1-2: new full-speed USB device number 93 using xhci_hcd
+1214:[  339.832187] usb 1-2: Device not responding to setup address.
+1215:[  340.039922] usb 1-2: Device not responding to setup address.
+1216:[  340.247884] usb 1-2: device not accepting address 93, error -71
+1217:[  340.247970] usb 1-2: WARN: invalid context state for evaluate context command.
+1218:[  340.248045] usb usb1-port2: unable to enumerate USB device
+1219:[  340.463901] usb 1-2: new full-speed USB device number 94 using xhci_hcd
+1220:[  340.576032] usb 1-2: device descriptor read/64, error -71
+1221:[  342.400039] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1222:[  342.511976] usb 1-2: new full-speed USB device number 95 using xhci_hcd
+1223:[  342.623915] usb 1-2: device descriptor read/64, error -71
+1224:[  344.448036] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1225:[  344.448151] usb usb1-port2: attempt power cycle
+1226:[  346.232130] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1227:[  346.344096] usb 1-2: new full-speed USB device number 97 using xhci_hcd
+1228:[  346.344278] usb 1-2: Device not responding to setup address.
+1229:[  346.552140] usb 1-2: Device not responding to setup address.
+1230:[  346.760011] usb 1-2: device not accepting address 97, error -71
+1231:[  346.760134] usb 1-2: WARN: invalid context state for evaluate context command.
+1232:[  346.760208] usb usb1-port2: unable to enumerate USB device
+1233:[  346.976079] usb 1-2: new full-speed USB device number 98 using xhci_hcd
+1234:[  347.088024] usb 1-2: device descriptor read/64, error -71
+1235:[  348.912053] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1236:[  349.023978] usb 1-2: new full-speed USB device number 99 using xhci_hcd
+1237:[  349.136177] usb 1-2: device descriptor read/64, error -71
+1238:[  350.960095] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1239:[  350.960233] usb usb1-port2: attempt power cycle
+1240:[  352.744207] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1241:[  352.856038] usb 1-2: new full-speed USB device number 101 using xhci_hcd
+1242:[  352.856212] usb 1-2: Device not responding to setup address.
+1243:[  353.064207] usb 1-2: Device not responding to setup address.
+1244:[  353.272175] usb 1-2: device not accepting address 101, error -71
+1245:[  353.272279] usb 1-2: WARN: invalid context state for evaluate context command.
+1246:[  353.272353] usb usb1-port2: unable to enumerate USB device
+1247:[  353.489057] usb 1-2: new full-speed USB device number 102 using xhci_hcd
+1248:[  353.601093] usb 1-2: device descriptor read/64, error -71
+1249:[  355.424094] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1250:[  355.536140] usb 1-2: new full-speed USB device number 103 using xhci_hcd
+1251:[  355.648102] usb 1-2: device descriptor read/64, error -71
+1252:[  357.472195] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1253:[  357.472313] usb usb1-port2: attempt power cycle
+1254:[  359.256279] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1255:[  359.368112] usb 1-2: new full-speed USB device number 105 using xhci_hcd
+1256:[  359.368320] usb 1-2: Device not responding to setup address.
+1257:[  359.576252] usb 1-2: Device not responding to setup address.
+1258:[  359.784216] usb 1-2: device not accepting address 105, error -71
+1259:[  359.784308] usb 1-2: WARN: invalid context state for evaluate context command.
+1260:[  359.784381] usb usb1-port2: unable to enumerate USB device
+1261:[  360.000147] usb 1-2: new full-speed USB device number 106 using xhci_hcd
+1262:[  360.112284] usb 1-2: device descriptor read/64, error -71
+1263:[  361.936289] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1264:[  362.048089] usb 1-2: new full-speed USB device number 107 using xhci_hcd
+1265:[  362.160204] usb 1-2: device descriptor read/64, error -71
+1266:[  363.984322] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1267:[  363.984447] usb usb1-port2: attempt power cycle
+1268:[  365.768243] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1269:[  365.880213] usb 1-2: new full-speed USB device number 109 using xhci_hcd
+1270:[  365.880398] usb 1-2: Device not responding to setup address.
+1271:[  366.089265] usb 1-2: Device not responding to setup address.
+1272:[  366.296233] usb 1-2: device not accepting address 109, error -71
+1273:[  366.296330] usb 1-2: WARN: invalid context state for evaluate context command.
+1274:[  366.296404] usb usb1-port2: unable to enumerate USB device
+1275:[  366.512159] usb 1-2: new full-speed USB device number 110 using xhci_hcd
+1276:[  366.624252] usb 1-2: device descriptor read/64, error -71
+1277:[  368.448183] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1278:[  368.560249] usb 1-2: new full-speed USB device number 111 using xhci_hcd
+1279:[  368.672240] usb 1-2: device descriptor read/64, error -71
+1280:[  370.496370] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1281:[  370.496488] usb usb1-port2: attempt power cycle
+1282:[  372.280294] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1283:[  372.393358] usb 1-2: new full-speed USB device number 113 using xhci_hcd
+1284:[  372.393541] usb 1-2: Device not responding to setup address.
+1285:[  372.600256] usb 1-2: Device not responding to setup address.
+1286:[  372.809274] usb 1-2: device not accepting address 113, error -71
+1287:[  372.809375] usb 1-2: WARN: invalid context state for evaluate context command.
+1288:[  372.809449] usb usb1-port2: unable to enumerate USB device
+1289:[  373.026330] usb 1-2: new full-speed USB device number 114 using xhci_hcd
+1290:[  373.139326] usb 1-2: device descriptor read/64, error -71
+1291:[  374.960322] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1292:[  375.072384] usb 1-2: new full-speed USB device number 115 using xhci_hcd
+1293:[  375.184383] usb 1-2: device descriptor read/64, error -71
+1294:[  377.008293] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1295:[  377.008408] usb usb1-port2: attempt power cycle
+1296:[  378.792342] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1297:[  378.904385] usb 1-2: new full-speed USB device number 117 using xhci_hcd
+1298:[  378.904564] usb 1-2: Device not responding to setup address.
+1299:[  379.112334] usb 1-2: Device not responding to setup address.
+1300:[  379.320327] usb 1-2: device not accepting address 117, error -71
+1301:[  379.320432] usb 1-2: WARN: invalid context state for evaluate context command.
+1302:[  379.320504] usb usb1-port2: unable to enumerate USB device
+1303:[  379.536326] usb 1-2: new full-speed USB device number 118 using xhci_hcd
+1304:[  379.648299] usb 1-2: device descriptor read/64, error -71
+1305:[  381.472387] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1306:[  381.584399] usb 1-2: new full-speed USB device number 119 using xhci_hcd
+1307:[  381.696456] usb 1-2: device descriptor read/64, error -71
+1308:[  383.520353] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1309:[  383.520467] usb usb1-port2: attempt power cycle
+1310:[  385.304381] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1311:[  385.416305] usb 1-2: new full-speed USB device number 121 using xhci_hcd
+1312:[  385.416482] usb 1-2: Device not responding to setup address.
+1313:[  385.624378] usb 1-2: Device not responding to setup address.
+1314:[  385.832403] usb 1-2: device not accepting address 121, error -71
+1315:[  385.832507] usb 1-2: WARN: invalid context state for evaluate context command.
+1316:[  385.832580] usb usb1-port2: unable to enumerate USB device
+1317:[  386.048325] usb 1-2: new full-speed USB device number 122 using xhci_hcd
+1318:[  386.160390] usb 1-2: device descriptor read/64, error -71
+1319:[  387.984344] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1320:[  388.096303] usb 1-2: new full-speed USB device number 123 using xhci_hcd
+1321:[  388.209304] usb 1-2: device descriptor read/64, error -71
+1322:[  390.032356] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1323:[  390.032469] usb usb1-port2: attempt power cycle
+1324:[  391.816517] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1325:[  391.928339] usb 1-2: new full-speed USB device number 125 using xhci_hcd
+1326:[  391.928522] usb 1-2: Device not responding to setup address.
+1327:[  392.136489] usb 1-2: Device not responding to setup address.
+1328:[  392.344356] usb 1-2: device not accepting address 125, error -71
+1329:[  392.344461] usb 1-2: WARN: invalid context state for evaluate context command.
+1330:[  392.344535] usb usb1-port2: unable to enumerate USB device
+1331:[  392.561366] usb 1-2: new full-speed USB device number 126 using xhci_hcd
+1332:[  392.673436] usb 1-2: device descriptor read/64, error -71
+1333:[  394.496532] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1334:[  394.608281] usb 1-2: new full-speed USB device number 127 using xhci_hcd
+1335:[  394.720362] usb 1-2: device descriptor read/64, error -71
+1336:[  396.544531] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1337:[  396.544646] usb usb1-port2: attempt power cycle
+1338:[  398.328391] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1339:[  398.440402] usb 1-2: new full-speed USB device number 4 using xhci_hcd
+1340:[  398.440587] usb 1-2: Device not responding to setup address.
+1341:[  398.649387] usb 1-2: Device not responding to setup address.
+1342:[  398.856464] usb 1-2: device not accepting address 4, error -71
+1343:[  398.856510] usb 1-2: WARN: invalid context state for evaluate context command.
+1344:[  398.856553] usb usb1-port2: unable to enumerate USB device
+1345:[  399.072508] usb 1-2: new full-speed USB device number 6 using xhci_hcd
+1346:[  399.184521] usb 1-2: device descriptor read/64, error -71
+1347:[  401.008405] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1348:[  401.120398] usb 1-2: new full-speed USB device number 7 using xhci_hcd
+1349:[  401.232557] usb 1-2: device descriptor read/64, error -71
+1350:[  403.056558] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1351:[  403.056673] usb usb1-port2: attempt power cycle
+1352:[  404.840485] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1353:[  404.952503] usb 1-2: new full-speed USB device number 12 using xhci_hcd
+1354:[  404.952706] usb 1-2: Device not responding to setup address.
+1355:[  405.160459] usb 1-2: Device not responding to setup address.
+1356:[  405.368332] usb 1-2: device not accepting address 12, error -71
+1357:[  405.368378] usb 1-2: WARN: invalid context state for evaluate context command.
+1358:[  405.368418] usb usb1-port2: unable to enumerate USB device
+1359:[  405.584524] usb 1-2: new full-speed USB device number 13 using xhci_hcd
+1360:[  405.696489] usb 1-2: device descriptor read/64, error -71
+1361:[  407.520482] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1362:[  407.632417] usb 1-2: new full-speed USB device number 14 using xhci_hcd
+1363:[  407.744526] usb 1-2: device descriptor read/64, error -71
+1364:[  409.568468] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1365:[  409.568584] usb usb1-port2: attempt power cycle
+1366:[  411.352563] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1367:[  411.464523] usb 1-2: new full-speed USB device number 16 using xhci_hcd
+1368:[  411.464722] usb 1-2: Device not responding to setup address.
+1369:[  411.672545] usb 1-2: Device not responding to setup address.
+1370:[  411.880384] usb 1-2: device not accepting address 16, error -71
+1371:[  411.880428] usb 1-2: WARN: invalid context state for evaluate context command.
+1372:[  411.880467] usb usb1-port2: unable to enumerate USB device
+1373:[  412.096536] usb 1-2: new full-speed USB device number 17 using xhci_hcd
+1374:[  412.208459] usb 1-2: device descriptor read/64, error -71
+1375:[  414.032466] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1376:[  414.144427] usb 1-2: new full-speed USB device number 18 using xhci_hcd
+1377:[  414.256492] usb 1-2: device descriptor read/64, error -71
+1378:[  416.080506] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1379:[  416.080621] usb usb1-port2: attempt power cycle
+1380:[  417.864593] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1381:[  417.976438] usb 1-2: new full-speed USB device number 20 using xhci_hcd
+1382:[  417.976623] usb 1-2: Device not responding to setup address.
+1383:[  418.184481] usb 1-2: Device not responding to setup address.
+1384:[  418.392475] usb 1-2: device not accepting address 20, error -71
+1385:[  418.392559] usb 1-2: WARN: invalid context state for evaluate context command.
+1386:[  418.392621] usb usb1-port2: unable to enumerate USB device
+1387:[  418.608426] usb 1-2: new full-speed USB device number 21 using xhci_hcd
+1388:[  418.720379] usb 1-2: device descriptor read/64, error -71
+1389:[  420.544571] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1390:[  420.656421] usb 1-2: new full-speed USB device number 22 using xhci_hcd
+1391:[  420.768561] usb 1-2: device descriptor read/64, error -71
+1392:[  422.592564] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1393:[  422.592677] usb usb1-port2: attempt power cycle
+1394:[  424.376595] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1395:[  424.488507] usb 1-2: new full-speed USB device number 24 using xhci_hcd
+1396:[  424.488698] usb 1-2: Device not responding to setup address.
+1397:[  424.696524] usb 1-2: Device not responding to setup address.
+1398:[  424.904524] usb 1-2: device not accepting address 24, error -71
+1399:[  424.904618] usb 1-2: WARN: invalid context state for evaluate context command.
+1400:[  424.904691] usb usb1-port2: unable to enumerate USB device
+1401:[  425.120444] usb 1-2: new full-speed USB device number 25 using xhci_hcd
+1402:[  425.232571] usb 1-2: device descriptor read/64, error -71
+1403:[  427.057479] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1404:[  427.169447] usb 1-2: new full-speed USB device number 26 using xhci_hcd
+1405:[  427.282503] usb 1-2: device descriptor read/64, error -71
+1406:[  429.105454] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1407:[  429.105564] usb usb1-port2: attempt power cycle
+1408:[  430.888446] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1409:[  431.000474] usb 1-2: new full-speed USB device number 28 using xhci_hcd
+1410:[  431.000655] usb 1-2: Device not responding to setup address.
+1411:[  431.208585] usb 1-2: Device not responding to setup address.
+1412:[  431.416345] usb 1-2: device not accepting address 28, error -71
+1413:[  431.416420] usb 1-2: WARN: invalid context state for evaluate context command.
+1414:[  431.416494] usb usb1-port2: unable to enumerate USB device
+1415:[  431.633476] usb 1-2: new full-speed USB device number 29 using xhci_hcd
+1416:[  431.745570] usb 1-2: device descriptor read/64, error -71
+1417:[  433.568601] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1418:[  433.680454] usb 1-2: new full-speed USB device number 30 using xhci_hcd
+1419:[  433.792506] usb 1-2: device descriptor read/64, error -71
+1420:[  435.616593] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1421:[  435.616708] usb usb1-port2: attempt power cycle
+1422:[  437.400504] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1423:[  437.514506] usb 1-2: new full-speed USB device number 32 using xhci_hcd
+1424:[  437.514642] usb 1-2: Device not responding to setup address.
+1425:[  437.720495] usb 1-2: Device not responding to setup address.
+1426:[  437.928421] usb 1-2: device not accepting address 32, error -71
+1427:[  437.928551] usb 1-2: WARN: invalid context state for evaluate context command.
+1428:[  437.928627] usb usb1-port2: unable to enumerate USB device
+1429:[  438.145364] usb 1-2: new full-speed USB device number 33 using xhci_hcd
+1430:[  438.257615] usb 1-2: device descriptor read/64, error -71
+1431:[  440.080369] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1432:[  440.192473] usb 1-2: new full-speed USB device number 34 using xhci_hcd
+1433:[  440.304491] usb 1-2: device descriptor read/64, error -71
+1434:[  442.128490] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1435:[  442.128609] usb usb1-port2: attempt power cycle
+1436:[  443.912577] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1437:[  444.024538] usb 1-2: new full-speed USB device number 36 using xhci_hcd
+1438:[  444.024726] usb 1-2: Device not responding to setup address.
+1439:[  444.232571] usb 1-2: Device not responding to setup address.
+1440:[  444.440447] usb 1-2: device not accepting address 36, error -71
+1441:[  444.440553] usb 1-2: WARN: invalid context state for evaluate context command.
+1442:[  444.440627] usb usb1-port2: unable to enumerate USB device
+1443:[  444.656532] usb 1-2: new full-speed USB device number 37 using xhci_hcd
+1444:[  444.768605] usb 1-2: device descriptor read/64, error -71
+1445:[  446.592488] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1446:[  446.704534] usb 1-2: new full-speed USB device number 38 using xhci_hcd
+1447:[  446.816565] usb 1-2: device descriptor read/64, error -71
+1448:[  448.640488] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1449:[  448.640604] usb usb1-port2: attempt power cycle
+1450:[  450.424420] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1451:[  450.536397] usb 1-2: new full-speed USB device number 40 using xhci_hcd
+1452:[  450.536541] usb 1-2: Device not responding to setup address.
+1453:[  450.744432] usb 1-2: Device not responding to setup address.
+1454:[  450.952403] usb 1-2: device not accepting address 40, error -71
+1455:[  450.952490] usb 1-2: WARN: invalid context state for evaluate context command.
+1456:[  450.952560] usb usb1-port2: unable to enumerate USB device
+1457:[  451.168394] usb 1-2: new full-speed USB device number 41 using xhci_hcd
+1458:[  451.280430] usb 1-2: device descriptor read/64, error -71
+1459:[  453.104585] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1460:[  453.216412] usb 1-2: new full-speed USB device number 42 using xhci_hcd
+1461:[  453.328473] usb 1-2: device descriptor read/64, error -71
+1462:[  455.152576] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1463:[  455.152690] usb usb1-port2: attempt power cycle
+1464:[  456.936439] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1465:[  457.048516] usb 1-2: new full-speed USB device number 44 using xhci_hcd
+1466:[  457.048697] usb 1-2: Device not responding to setup address.
+1467:[  457.256501] usb 1-2: Device not responding to setup address.
+1468:[  457.464504] usb 1-2: device not accepting address 44, error -71
+1469:[  457.464596] usb 1-2: WARN: invalid context state for evaluate context command.
+1470:[  457.464669] usb usb1-port2: unable to enumerate USB device
+1471:[  457.680420] usb 1-2: new full-speed USB device number 45 using xhci_hcd
+1472:[  457.792474] usb 1-2: device descriptor read/64, error -71
+1473:[  459.616559] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1474:[  459.728548] usb 1-2: new full-speed USB device number 46 using xhci_hcd
+1475:[  459.840549] usb 1-2: device descriptor read/64, error -71
+1476:[  461.664549] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1477:[  461.664664] usb usb1-port2: attempt power cycle
+1478:[  463.448572] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1479:[  463.560447] usb 1-2: new full-speed USB device number 48 using xhci_hcd
+1480:[  463.560629] usb 1-2: Device not responding to setup address.
+1481:[  463.768460] usb 1-2: Device not responding to setup address.
+1482:[  463.976413] usb 1-2: device not accepting address 48, error -71
+1483:[  463.976514] usb 1-2: WARN: invalid context state for evaluate context command.
+1484:[  463.976588] usb usb1-port2: unable to enumerate USB device
+1485:[  464.192424] usb 1-2: new full-speed USB device number 49 using xhci_hcd
+1486:[  464.304575] usb 1-2: device descriptor read/64, error -71
+1487:[  466.128595] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1488:[  466.240430] usb 1-2: new full-speed USB device number 50 using xhci_hcd
+1489:[  466.352470] usb 1-2: device descriptor read/64, error -71
+1490:[  468.176559] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1491:[  468.176673] usb usb1-port2: attempt power cycle
+1492:[  469.960481] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1493:[  470.072429] usb 1-2: new full-speed USB device number 52 using xhci_hcd
+1494:[  470.072632] usb 1-2: Device not responding to setup address.
+1495:[  470.280391] usb 1-2: Device not responding to setup address.
+1496:[  470.488514] usb 1-2: device not accepting address 52, error -71
+1497:[  470.488618] usb 1-2: WARN: invalid context state for evaluate context command.
+1498:[  470.488696] usb usb1-port2: unable to enumerate USB device
+1499:[  470.704527] usb 1-2: new full-speed USB device number 53 using xhci_hcd
+1500:[  470.816567] usb 1-2: device descriptor read/64, error -71
+1501:[  472.640443] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1502:[  472.752429] usb 1-2: new full-speed USB device number 54 using xhci_hcd
+1503:[  472.864526] usb 1-2: device descriptor read/64, error -71
+1504:[  474.688549] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1505:[  474.688664] usb usb1-port2: attempt power cycle
+1506:[  476.472390] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1507:[  476.584331] usb 1-2: new full-speed USB device number 56 using xhci_hcd
+1508:[  476.584477] usb 1-2: Device not responding to setup address.
+1509:[  476.792498] usb 1-2: Device not responding to setup address.
+1510:[  477.000426] usb 1-2: device not accepting address 56, error -71
+1511:[  477.000526] usb 1-2: WARN: invalid context state for evaluate context command.
+1512:[  477.000600] usb usb1-port2: unable to enumerate USB device
+1513:[  477.216362] usb 1-2: new full-speed USB device number 57 using xhci_hcd
+1514:[  477.328397] usb 1-2: device descriptor read/64, error -71
+1515:[  479.152392] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1516:[  479.264464] usb 1-2: new full-speed USB device number 58 using xhci_hcd
+1517:[  479.376343] usb 1-2: device descriptor read/64, error -71
+1518:[  481.200463] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1519:[  481.200579] usb usb1-port2: attempt power cycle
+1520:[  482.984545] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1521:[  483.096483] usb 1-2: new full-speed USB device number 60 using xhci_hcd
+1522:[  483.096665] usb 1-2: Device not responding to setup address.
+1523:[  483.304473] usb 1-2: Device not responding to setup address.
+1524:[  483.512449] usb 1-2: device not accepting address 60, error -71
+1525:[  483.512548] usb 1-2: WARN: invalid context state for evaluate context command.
+1526:[  483.512622] usb usb1-port2: unable to enumerate USB device
+1527:[  483.728489] usb 1-2: new full-speed USB device number 61 using xhci_hcd
+1528:[  483.840464] usb 1-2: device descriptor read/64, error -71
+1529:[  485.664539] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1530:[  485.776461] usb 1-2: new full-speed USB device number 62 using xhci_hcd
+1531:[  485.889367] usb 1-2: device descriptor read/64, error -71
+1532:[  487.712422] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1533:[  487.712539] usb usb1-port2: attempt power cycle
+1534:[  489.496365] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1535:[  489.608372] usb 1-2: new full-speed USB device number 64 using xhci_hcd
+1536:[  489.608553] usb 1-2: Device not responding to setup address.
+1537:[  489.816429] usb 1-2: Device not responding to setup address.
+1538:[  490.024326] usb 1-2: device not accepting address 64, error -71
+1539:[  490.024422] usb 1-2: WARN: invalid context state for evaluate context command.
+1540:[  490.024493] usb usb1-port2: unable to enumerate USB device
+1541:[  490.241379] usb 1-2: new full-speed USB device number 65 using xhci_hcd
+1542:[  490.353434] usb 1-2: device descriptor read/64, error -71
+1543:[  492.176502] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1544:[  492.288375] usb 1-2: new full-speed USB device number 66 using xhci_hcd
+1545:[  492.400370] usb 1-2: device descriptor read/64, error -71
+1546:[  494.224291] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1547:[  494.224341] usb usb1-port2: attempt power cycle
+1548:[  496.008493] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1549:[  496.120364] usb 1-2: new full-speed USB device number 68 using xhci_hcd
+1550:[  496.120547] usb 1-2: Device not responding to setup address.
+1551:[  496.328426] usb 1-2: Device not responding to setup address.
+1552:[  496.536386] usb 1-2: device not accepting address 68, error -71
+1553:[  496.536494] usb 1-2: WARN: invalid context state for evaluate context command.
+1554:[  496.536569] usb usb1-port2: unable to enumerate USB device
+1555:[  496.752353] usb 1-2: new full-speed USB device number 69 using xhci_hcd
+1556:[  496.864497] usb 1-2: device descriptor read/64, error -71
+1557:[  498.688380] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1558:[  498.801367] usb 1-2: new full-speed USB device number 70 using xhci_hcd
+1559:[  498.913501] usb 1-2: device descriptor read/64, error -71
+1560:[  500.736501] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1561:[  500.736616] usb usb1-port2: attempt power cycle
+1562:[  502.520286] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1563:[  502.632249] usb 1-2: new full-speed USB device number 72 using xhci_hcd
+1564:[  502.632431] usb 1-2: Device not responding to setup address.
+1565:[  502.840401] usb 1-2: Device not responding to setup address.
+1566:[  503.048358] usb 1-2: device not accepting address 72, error -71
+1567:[  503.048469] usb 1-2: WARN: invalid context state for evaluate context command.
+1568:[  503.048543] usb usb1-port2: unable to enumerate USB device
+1569:[  503.264372] usb 1-2: new full-speed USB device number 73 using xhci_hcd
+1570:[  503.376465] usb 1-2: device descriptor read/64, error -71
+1571:[  505.200413] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1572:[  505.312364] usb 1-2: new full-speed USB device number 74 using xhci_hcd
+1573:[  505.424396] usb 1-2: device descriptor read/64, error -71
+1574:[  507.248490] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1575:[  507.248607] usb usb1-port2: attempt power cycle
+1576:[  509.032406] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1577:[  509.144437] usb 1-2: new full-speed USB device number 76 using xhci_hcd
+1578:[  509.144622] usb 1-2: Device not responding to setup address.
+1579:[  509.352270] usb 1-2: Device not responding to setup address.
+1580:[  509.560348] usb 1-2: device not accepting address 76, error -71
+1581:[  509.560452] usb 1-2: WARN: invalid context state for evaluate context command.
+1582:[  509.560526] usb usb1-port2: unable to enumerate USB device
+1583:[  509.776403] usb 1-2: new full-speed USB device number 77 using xhci_hcd
+1584:[  509.889313] usb 1-2: device descriptor read/64, error -71
+1585:[  511.712392] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1586:[  511.824408] usb 1-2: new full-speed USB device number 78 using xhci_hcd
+1587:[  511.936457] usb 1-2: device descriptor read/64, error -71
+1588:[  513.760377] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1589:[  513.760492] usb usb1-port2: attempt power cycle
+1590:[  515.544455] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1591:[  515.656407] usb 1-2: new full-speed USB device number 80 using xhci_hcd
+1592:[  515.656592] usb 1-2: Device not responding to setup address.
+1593:[  515.864302] usb 1-2: Device not responding to setup address.
+1594:[  516.072327] usb 1-2: device not accepting address 80, error -71
+1595:[  516.072432] usb 1-2: WARN: invalid context state for evaluate context command.
+1596:[  516.072506] usb usb1-port2: unable to enumerate USB device
+1597:[  516.288398] usb 1-2: new full-speed USB device number 81 using xhci_hcd
+1598:[  516.400307] usb 1-2: device descriptor read/64, error -71
+1599:[  518.224435] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1600:[  518.336317] usb 1-2: new full-speed USB device number 82 using xhci_hcd
+1601:[  518.448304] usb 1-2: device descriptor read/64, error -71
+1602:[  520.272352] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1603:[  520.272468] usb usb1-port2: attempt power cycle
+1604:[  522.056306] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1605:[  522.168294] usb 1-2: new full-speed USB device number 84 using xhci_hcd
+1606:[  522.168478] usb 1-2: Device not responding to setup address.
+1607:[  522.376414] usb 1-2: Device not responding to setup address.
+1608:[  522.584307] usb 1-2: device not accepting address 84, error -71
+1609:[  522.584413] usb 1-2: WARN: invalid context state for evaluate context command.
+1610:[  522.584487] usb usb1-port2: unable to enumerate USB device
+1611:[  522.800166] usb 1-2: new full-speed USB device number 85 using xhci_hcd
+1612:[  522.912277] usb 1-2: device descriptor read/64, error -71
+1613:[  524.736226] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1614:[  524.848301] usb 1-2: new full-speed USB device number 86 using xhci_hcd
+1615:[  524.960303] usb 1-2: device descriptor read/64, error -71
+1616:[  526.784308] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1617:[  526.784428] usb usb1-port2: attempt power cycle
+1618:[  528.568329] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1619:[  528.680257] usb 1-2: new full-speed USB device number 88 using xhci_hcd
+1620:[  528.680434] usb 1-2: Device not responding to setup address.
+1621:[  528.888377] usb 1-2: Device not responding to setup address.
+1622:[  529.096279] usb 1-2: device not accepting address 88, error -71
+1623:[  529.096378] usb 1-2: WARN: invalid context state for evaluate context command.
+1624:[  529.096452] usb usb1-port2: unable to enumerate USB device
+1625:[  529.314233] usb 1-2: new full-speed USB device number 89 using xhci_hcd
+1626:[  529.426322] usb 1-2: device descriptor read/64, error -71
+1627:[  531.248400] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1628:[  531.360227] usb 1-2: new full-speed USB device number 90 using xhci_hcd
+1629:[  531.472198] usb 1-2: device descriptor read/64, error -71
+1630:[  533.296315] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1631:[  533.296434] usb usb1-port2: attempt power cycle
+1632:[  535.081246] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1633:[  535.193237] usb 1-2: new full-speed USB device number 92 using xhci_hcd
+1634:[  535.193418] usb 1-2: Device not responding to setup address.
+1635:[  535.400235] usb 1-2: Device not responding to setup address.
+1636:[  535.608229] usb 1-2: device not accepting address 92, error -71
+1637:[  535.608331] usb 1-2: WARN: invalid context state for evaluate context command.
+1638:[  535.608404] usb usb1-port2: unable to enumerate USB device
+1639:[  535.824284] usb 1-2: new full-speed USB device number 93 using xhci_hcd
+1640:[  535.936376] usb 1-2: device descriptor read/64, error -71
+1641:[  537.760250] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1642:[  537.872201] usb 1-2: new full-speed USB device number 94 using xhci_hcd
+1643:[  537.984289] usb 1-2: device descriptor read/64, error -71
+1644:[  539.808292] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1645:[  539.808411] usb usb1-port2: attempt power cycle
+1646:[  541.592221] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1647:[  541.704248] usb 1-2: new full-speed USB device number 96 using xhci_hcd
+1648:[  541.704430] usb 1-2: Device not responding to setup address.
+1649:[  541.913172] usb 1-2: Device not responding to setup address.
+1650:[  542.121110] usb 1-2: device not accepting address 96, error -71
+1651:[  542.121169] usb 1-2: WARN: invalid context state for evaluate context command.
+1652:[  542.121212] usb usb1-port2: unable to enumerate USB device
+1653:[  542.337253] usb 1-2: new full-speed USB device number 97 using xhci_hcd
+1654:[  542.449365] usb 1-2: device descriptor read/64, error -71
+1655:[  544.273159] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1656:[  544.385239] usb 1-2: new full-speed USB device number 98 using xhci_hcd
+1657:[  544.497268] usb 1-2: device descriptor read/64, error -71
+1658:[  546.320209] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1659:[  546.320327] usb usb1-port2: attempt power cycle
+1660:[  548.104262] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1661:[  548.216221] usb 1-2: new full-speed USB device number 100 using xhci_hcd
+1662:[  548.216404] usb 1-2: Device not responding to setup address.
+1663:[  548.424263] usb 1-2: Device not responding to setup address.
+1664:[  548.632194] usb 1-2: device not accepting address 100, error -71
+1665:[  548.632290] usb 1-2: WARN: invalid context state for evaluate context command.
+1666:[  548.632362] usb usb1-port2: unable to enumerate USB device
+1667:[  548.850169] usb 1-2: new full-speed USB device number 101 using xhci_hcd
+1668:[  548.963158] usb 1-2: device descriptor read/64, error -71
+1669:[  550.784134] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1670:[  550.896173] usb 1-2: new full-speed USB device number 102 using xhci_hcd
+1671:[  551.008250] usb 1-2: device descriptor read/64, error -71
+1672:[  552.832138] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1673:[  552.832259] usb usb1-port2: attempt power cycle
+1674:[  554.616256] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1675:[  554.728184] usb 1-2: new full-speed USB device number 104 using xhci_hcd
+1676:[  554.728366] usb 1-2: Device not responding to setup address.
+1677:[  554.936213] usb 1-2: Device not responding to setup address.
+1678:[  555.144137] usb 1-2: device not accepting address 104, error -71
+1679:[  555.144227] usb 1-2: WARN: invalid context state for evaluate context command.
+1680:[  555.144289] usb usb1-port2: unable to enumerate USB device
+1681:[  555.364102] usb 1-2: new full-speed USB device number 105 using xhci_hcd
+1682:[  555.477209] usb 1-2: device descriptor read/64, error -71
+1683:[  557.304160] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1684:[  557.416183] usb 1-2: new full-speed USB device number 106 using xhci_hcd
+1685:[  557.528284] usb 1-2: device descriptor read/64, error -71
+1686:[  559.352210] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1687:[  559.352366] usb usb1-port2: attempt power cycle
+1688:[  561.136342] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1689:[  561.248298] usb 1-2: new full-speed USB device number 108 using xhci_hcd
+1690:[  561.248481] usb 1-2: Device not responding to setup address.
+1691:[  561.456330] usb 1-2: Device not responding to setup address.
+1692:[  561.664217] usb 1-2: device not accepting address 108, error -71
+1693:[  561.664313] usb 1-2: WARN: invalid context state for evaluate context command.
+1694:[  561.664383] usb usb1-port2: unable to enumerate USB device
+1695:[  561.881248] usb 1-2: new full-speed USB device number 109 using xhci_hcd
+1696:[  561.993215] usb 1-2: device descriptor read/64, error -71
+1697:[  563.816375] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1698:[  563.928346] usb 1-2: new full-speed USB device number 110 using xhci_hcd
+1699:[  564.040293] usb 1-2: device descriptor read/64, error -71
+1700:[  565.864400] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1701:[  565.864518] usb usb1-port2: attempt power cycle
+1702:[  567.648420] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1703:[  567.760357] usb 1-2: new full-speed USB device number 112 using xhci_hcd
+1704:[  567.760534] usb 1-2: Device not responding to setup address.
+1705:[  567.968295] usb 1-2: Device not responding to setup address.
+1706:[  568.176373] usb 1-2: device not accepting address 112, error -71
+1707:[  568.176477] usb 1-2: WARN: invalid context state for evaluate context command.
+1708:[  568.176551] usb usb1-port2: unable to enumerate USB device
+1709:[  568.392327] usb 1-2: new full-speed USB device number 113 using xhci_hcd
+1710:[  568.504346] usb 1-2: device descriptor read/64, error -71
+1711:[  570.328359] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1712:[  570.440262] usb 1-2: new full-speed USB device number 114 using xhci_hcd
+1713:[  570.552284] usb 1-2: device descriptor read/64, error -71
+1714:[  572.376361] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1715:[  572.376474] usb usb1-port2: attempt power cycle
+1716:[  574.160435] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1717:[  574.273377] usb 1-2: new full-speed USB device number 116 using xhci_hcd
+1718:[  574.273556] usb 1-2: Device not responding to setup address.
+1719:[  574.480461] usb 1-2: Device not responding to setup address.
+1720:[  574.688454] usb 1-2: device not accepting address 116, error -71
+1721:[  574.688557] usb 1-2: WARN: invalid context state for evaluate context command.
+1722:[  574.688633] usb usb1-port2: unable to enumerate USB device
+1723:[  574.905354] usb 1-2: new full-speed USB device number 117 using xhci_hcd
+1724:[  575.017419] usb 1-2: device descriptor read/64, error -71
+1725:[  576.840479] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1726:[  576.952426] usb 1-2: new full-speed USB device number 118 using xhci_hcd
+1727:[  577.064487] usb 1-2: device descriptor read/64, error -71
+1728:[  578.888469] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1729:[  578.888580] usb usb1-port2: attempt power cycle
+1730:[  580.673440] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1731:[  580.785459] usb 1-2: new full-speed USB device number 120 using xhci_hcd
+1732:[  580.785725] usb 1-2: Device not responding to setup address.
+1733:[  580.993438] usb 1-2: Device not responding to setup address.
+1734:[  581.201861] usb 1-2: device not accepting address 120, error -71
+1735:[  581.201964] usb 1-2: WARN: invalid context state for evaluate context command.
+1736:[  581.202035] usb usb1-port2: unable to enumerate USB device
+1737:[  581.417531] usb 1-2: new full-speed USB device number 121 using xhci_hcd
+1738:[  581.529586] usb 1-2: device descriptor read/64, error -71
+1739:[  583.353475] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1740:[  583.465492] usb 1-2: new full-speed USB device number 122 using xhci_hcd
+1741:[  583.577596] usb 1-2: device descriptor read/64, error -71
+1742:[  585.400559] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1743:[  585.400678] usb usb1-port2: attempt power cycle
+1744:[  587.184558] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1745:[  587.296589] usb 1-2: new full-speed USB device number 124 using xhci_hcd
+1746:[  587.296772] usb 1-2: Device not responding to setup address.
+1747:[  587.504580] usb 1-2: Device not responding to setup address.
+1748:[  587.713504] usb 1-2: device not accepting address 124, error -71
+1749:[  587.713595] usb 1-2: WARN: invalid context state for evaluate context command.
+1750:[  587.713668] usb usb1-port2: unable to enumerate USB device
+1751:[  587.929559] usb 1-2: new full-speed USB device number 125 using xhci_hcd
+1752:[  588.043602] usb 1-2: device descriptor read/64, error -71
+1753:[  589.864663] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1754:[  589.976590] usb 1-2: new full-speed USB device number 126 using xhci_hcd
+1755:[  590.088628] usb 1-2: device descriptor read/64, error -71
+1756:[  591.913559] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1757:[  591.913677] usb usb1-port2: attempt power cycle
+1758:[  593.696623] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1759:[  593.808652] usb 1-2: new full-speed USB device number 3 using xhci_hcd
+1760:[  593.808835] usb 1-2: Device not responding to setup address.
+1761:[  594.016614] usb 1-2: Device not responding to setup address.
+1762:[  594.224646] usb 1-2: device not accepting address 3, error -71
+1763:[  594.224745] usb 1-2: WARN: invalid context state for evaluate context command.
+1764:[  594.224819] usb usb1-port2: unable to enumerate USB device
+1765:[  594.440590] usb 1-2: new full-speed USB device number 4 using xhci_hcd
+1766:[  594.552579] usb 1-2: device descriptor read/64, error -71
+1767:[  596.376608] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1768:[  596.488684] usb 1-2: new full-speed USB device number 6 using xhci_hcd
+1769:[  596.601641] usb 1-2: device descriptor read/64, error -71
+1770:[  598.425701] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1771:[  598.425816] usb usb1-port2: attempt power cycle
+1772:[  600.208816] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1773:[  600.321620] usb 1-2: new full-speed USB device number 11 using xhci_hcd
+1774:[  600.321795] usb 1-2: Device not responding to setup address.
+1775:[  600.528798] usb 1-2: Device not responding to setup address.
+1776:[  600.736683] usb 1-2: device not accepting address 11, error -71
+1777:[  600.736776] usb 1-2: WARN: invalid context state for evaluate context command.
+1778:[  600.736850] usb usb1-port2: unable to enumerate USB device
+1779:[  600.953657] usb 1-2: new full-speed USB device number 12 using xhci_hcd
+1780:[  601.065659] usb 1-2: device descriptor read/64, error -71
+1781:[  602.888766] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1782:[  603.000636] usb 1-2: new full-speed USB device number 13 using xhci_hcd
+1783:[  603.112646] usb 1-2: device descriptor read/64, error -71
+1784:[  604.936690] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1785:[  604.936733] usb usb1-port2: attempt power cycle
+1786:[  606.721636] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1787:[  606.833621] usb 1-2: new full-speed USB device number 15 using xhci_hcd
+1788:[  606.833828] usb 1-2: Device not responding to setup address.
+1789:[  607.040709] usb 1-2: Device not responding to setup address.
+1790:[  607.248720] usb 1-2: device not accepting address 15, error -71
+1791:[  607.248768] usb 1-2: WARN: invalid context state for evaluate context command.
+1792:[  607.248808] usb usb1-port2: unable to enumerate USB device
+1793:[  607.466726] usb 1-2: new full-speed USB device number 16 using xhci_hcd
+1794:[  607.578887] usb 1-2: device descriptor read/64, error -71
+1795:[  609.400702] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1796:[  609.512706] usb 1-2: new full-speed USB device number 17 using xhci_hcd
+1797:[  609.625699] usb 1-2: device descriptor read/64, error -71
+1798:[  611.448777] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1799:[  611.448892] usb usb1-port2: attempt power cycle
+1800:[  613.232789] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1801:[  613.344782] usb 1-2: new full-speed USB device number 19 using xhci_hcd
+1802:[  613.344966] usb 1-2: Device not responding to setup address.
+1803:[  613.552774] usb 1-2: Device not responding to setup address.
+1804:[  613.762370] usb 1-2: device not accepting address 19, error -71
+1805:[  613.762466] usb 1-2: WARN: invalid context state for evaluate context command.
+1806:[  613.762542] usb usb1-port2: unable to enumerate USB device
+1807:[  613.977769] usb 1-2: new full-speed USB device number 20 using xhci_hcd
+1808:[  614.089758] usb 1-2: device descriptor read/64, error -71
+1809:[  615.912834] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1810:[  616.025709] usb 1-2: new full-speed USB device number 21 using xhci_hcd
+1811:[  616.137853] usb 1-2: device descriptor read/64, error -71
+1812:[  617.960899] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1813:[  617.961015] usb usb1-port2: attempt power cycle
+1814:[  619.744989] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1815:[  619.856943] usb 1-2: new full-speed USB device number 23 using xhci_hcd
+1816:[  619.857126] usb 1-2: Device not responding to setup address.
+1817:[  620.064893] usb 1-2: Device not responding to setup address.
+1818:[  620.272792] usb 1-2: device not accepting address 23, error -71
+1819:[  620.272889] usb 1-2: WARN: invalid context state for evaluate context command.
+1820:[  620.272960] usb usb1-port2: unable to enumerate USB device
+1821:[  620.488843] usb 1-2: new full-speed USB device number 24 using xhci_hcd
+1822:[  620.600771] usb 1-2: device descriptor read/64, error -71
+1823:[  622.432857] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1824:[  622.544812] usb 1-2: new full-speed USB device number 25 using xhci_hcd
+1825:[  622.656927] usb 1-2: device descriptor read/64, error -71
+1826:[  624.480866] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1827:[  624.480980] usb usb1-port2: attempt power cycle
+1828:[  626.264919] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1829:[  626.376984] usb 1-2: new full-speed USB device number 27 using xhci_hcd
+1830:[  626.377174] usb 1-2: Device not responding to setup address.
+1831:[  626.585914] usb 1-2: Device not responding to setup address.
+1832:[  626.792868] usb 1-2: device not accepting address 27, error -71
+1833:[  626.792961] usb 1-2: WARN: invalid context state for evaluate context command.
+1834:[  626.793034] usb usb1-port2: unable to enumerate USB device
+1835:[  627.008962] usb 1-2: new full-speed USB device number 28 using xhci_hcd
+1836:[  627.120833] usb 1-2: device descriptor read/64, error -71
+1837:[  628.945041] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1838:[  629.056930] usb 1-2: new full-speed USB device number 29 using xhci_hcd
+1839:[  629.169014] usb 1-2: device descriptor read/64, error -71
+1840:[  630.992952] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1841:[  630.993066] usb usb1-port2: attempt power cycle
+1842:[  632.777064] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1843:[  632.889039] usb 1-2: new full-speed USB device number 31 using xhci_hcd
+1844:[  632.889231] usb 1-2: Device not responding to setup address.
+1845:[  633.096976] usb 1-2: Device not responding to setup address.
+1846:[  633.304905] usb 1-2: device not accepting address 31, error -71
+1847:[  633.305004] usb 1-2: WARN: invalid context state for evaluate context command.
+1848:[  633.305077] usb usb1-port2: unable to enumerate USB device
+1849:[  633.522850] usb 1-2: new full-speed USB device number 32 using xhci_hcd
+1850:[  633.634992] usb 1-2: device descriptor read/64, error -71
+1851:[  635.456895] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1852:[  635.569959] usb 1-2: new full-speed USB device number 33 using xhci_hcd
+1853:[  635.683864] usb 1-2: device descriptor read/64, error -71
+1854:[  637.505027] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1855:[  637.505144] usb usb1-port2: attempt power cycle
+1856:[  639.288964] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1857:[  639.400940] usb 1-2: new full-speed USB device number 35 using xhci_hcd
+1858:[  639.401122] usb 1-2: Device not responding to setup address.
+1859:[  639.609100] usb 1-2: Device not responding to setup address.
+1860:[  639.817049] usb 1-2: device not accepting address 35, error -71
+1861:[  639.817120] usb 1-2: WARN: invalid context state for evaluate context command.
+1862:[  639.817172] usb usb1-port2: unable to enumerate USB device
+1863:[  640.033932] usb 1-2: new full-speed USB device number 36 using xhci_hcd
+1864:[  640.146023] usb 1-2: device descriptor read/64, error -71
+1865:[  641.969049] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1866:[  642.080934] usb 1-2: new full-speed USB device number 37 using xhci_hcd
+1867:[  642.193031] usb 1-2: device descriptor read/64, error -71
+1868:[  644.016989] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1869:[  644.017105] usb usb1-port2: attempt power cycle
+1870:[  645.800988] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1871:[  645.913015] usb 1-2: new full-speed USB device number 39 using xhci_hcd
+1872:[  645.913197] usb 1-2: Device not responding to setup address.
+1873:[  646.120989] usb 1-2: Device not responding to setup address.
+1874:[  646.328992] usb 1-2: device not accepting address 39, error -71
+1875:[  646.329091] usb 1-2: WARN: invalid context state for evaluate context command.
+1876:[  646.329163] usb usb1-port2: unable to enumerate USB device
+1877:[  646.545086] usb 1-2: new full-speed USB device number 40 using xhci_hcd
+1878:[  646.657066] usb 1-2: device descriptor read/64, error -71
+1879:[  648.480933] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1880:[  648.592971] usb 1-2: new full-speed USB device number 41 using xhci_hcd
+1881:[  648.705007] usb 1-2: device descriptor read/64, error -71
+1882:[  650.529065] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1883:[  650.529180] usb usb1-port2: attempt power cycle
+1884:[  652.313157] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1885:[  652.425150] usb 1-2: new full-speed USB device number 43 using xhci_hcd
+1886:[  652.425349] usb 1-2: Device not responding to setup address.
+1887:[  652.633046] usb 1-2: Device not responding to setup address.
+1888:[  652.841025] usb 1-2: device not accepting address 43, error -71
+1889:[  652.841128] usb 1-2: WARN: invalid context state for evaluate context command.
+1890:[  652.841201] usb usb1-port2: unable to enumerate USB device
+1891:[  653.057119] usb 1-2: new full-speed USB device number 44 using xhci_hcd
+1892:[  653.169176] usb 1-2: device descriptor read/64, error -71
+1893:[  654.993117] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1894:[  655.105143] usb 1-2: new full-speed USB device number 45 using xhci_hcd
+1895:[  655.217177] usb 1-2: device descriptor read/64, error -71
+1896:[  657.041111] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1897:[  657.041226] usb usb1-port2: attempt power cycle
+1898:[  658.825210] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1899:[  658.937149] usb 1-2: new full-speed USB device number 47 using xhci_hcd
+1900:[  658.937331] usb 1-2: Device not responding to setup address.
+1901:[  659.145207] usb 1-2: Device not responding to setup address.
+1902:[  659.353064] usb 1-2: device not accepting address 47, error -71
+1903:[  659.353158] usb 1-2: WARN: invalid context state for evaluate context command.
+1904:[  659.353232] usb usb1-port2: unable to enumerate USB device
+1905:[  659.569083] usb 1-2: new full-speed USB device number 48 using xhci_hcd
+1906:[  659.681131] usb 1-2: device descriptor read/64, error -71
+1907:[  661.505236] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1908:[  661.617182] usb 1-2: new full-speed USB device number 49 using xhci_hcd
+1909:[  661.729212] usb 1-2: device descriptor read/64, error -71
+1910:[  663.553180] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1911:[  663.553298] usb usb1-port2: attempt power cycle
+1912:[  665.337168] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1913:[  665.449190] usb 1-2: new full-speed USB device number 51 using xhci_hcd
+1914:[  665.449381] usb 1-2: Device not responding to setup address.
+1915:[  665.657225] usb 1-2: Device not responding to setup address.
+1916:[  665.865191] usb 1-2: device not accepting address 51, error -71
+1917:[  665.865292] usb 1-2: WARN: invalid context state for evaluate context command.
+1918:[  665.865367] usb usb1-port2: unable to enumerate USB device
+1919:[  666.081054] usb 1-2: new full-speed USB device number 52 using xhci_hcd
+1920:[  666.193140] usb 1-2: device descriptor read/64, error -71
+1921:[  668.017255] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1922:[  668.129225] usb 1-2: new full-speed USB device number 53 using xhci_hcd
+1923:[  668.241153] usb 1-2: device descriptor read/64, error -71
+1924:[  670.065237] usb usb1-port2: Cannot enable. Maybe the USB cable is bad?
+1925:[  670.065356] usb usb1-port2: attempt power cycle

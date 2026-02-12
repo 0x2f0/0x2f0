@@ -1,5 +1,6 @@
 <script>
 	import { goto, preloadCode, preloadData } from '$app/navigation';
+	import FancyName from '$lib/components/fancy-name.svelte';
 	const handleMouseEnter = () => {
 		preloadCode('/blogs');
 		preloadData('/blogs');
@@ -7,26 +8,37 @@
 </script>
 
 <svelte:head>
-	<title>Saroj Regmi | Home</title>
+	<title>saroj_r | 0x2f0 Home</title>
+	<meta
+		name="description"
+		content={'A developer who is interested in linux and vim, wants to navigate the systems space and is currently working as a fullstack dev.'}
+	/>
+	<meta name="keywords" content={'Linux,saroj,sarojregmi,sarojregmi200,0x2f0,0x1ff'} />
+	<meta name="author" content={'Saroj Regmi'} />
+	<meta property="og:title" content={'Fullstack wanna be Systems Soy Dev!'} />
 </svelte:head>
 
 <div class="flex h-screen flex-col justify-center gap-2.5 p-2.5 sm:p-20">
-	<small class="text-sm text-neutral-500 sm:text-xl dark:text-gray-300">Hey It's Me Saroj</small>
-	<ul
-		class="flex flex-col gap-1 text-left text-3xl text-neutral-800 sm:gap-2.5 sm:text-6xl dark:text-white"
-	>
-		<li>A developer for fun,</li>
-		<li>designer by needs,</li>
-		<li>Linux and Vim user by heart.</li>
-	</ul>
+	<small class="font-lora text-sm text-neutral-500 italic sm:text-xl dark:text-gray-300"
+		>Hey it's me <FancyName />
+	</small>
 
-	<button
-		onclick={() => {
-			goto('/blogs');
-		}}
-		onmouseenter={handleMouseEnter}
-		class="self-end rounded-md bg-white/90 px-10 py-3 text-xl transition-transform duration-75 hover:scale-105 hover:bg-white active:scale-96"
+	<section
+		class="flex flex-col gap-1 text-left font-inter text-3xl text-neutral-800 sm:gap-2.5 sm:text-6xl dark:text-white"
+	>
+		<div>A developer for fun,</div>
+		<div>designer by needs,</div>
+		<!-- Should add a hover effect telling my contributions to each and every single one of these. -->
+		<div>Linux and Vim user by heart.</div>
+	</section>
+
+	<a
+    href={"/blogs"}
+    data-sveltekit-preload-data={"hover"}
+    data-sveltekit-preload-code={"hover"}
+    role="button"
+		class="self-end bg-foreground text-back rounded-md px-10 py-3 text-xl transition-transform duration-75 hover:scale-102 active:scale-98"
 	>
 		Read blogs
-	</button>
+	</a>
 </div>

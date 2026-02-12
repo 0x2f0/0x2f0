@@ -1,0 +1,31 @@
+<svelte:head>
+  <title>Links | 0x2f0</title>
+	<meta name="description" content={"Links that are related to Saroj Regmi's work, life and absolutely anything he wants to share."} />
+	<meta name="author" content={"Saroj Regmi"} />
+</svelte:head>
+
+<style>
+h1 {
+  padding-bottom:20px;
+  }
+</style>
+
+<article class="h-max">
+
+# Pinned  
+Things that are important to me. Generally projects/things that I like.
+
+**[Portfolio](https://sarojr.com)**
+*I kinda like my Portfolio simple and not about me but about what I am working on. And Things that interest me.*
+
+**[Github](https://github.com/0x2f0)**
+*Graveyard of my projects. You can find my personal projects here*
+</article>
+
+
+<article>
+
+# Professional Work
+Will update it soon.
+
+</article>

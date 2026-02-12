@@ -5,7 +5,7 @@
 <Giscus
 	term="title"
 	id="giscus-comments"
-	repo="sarojregmi200/portfolio"
+	repo="0x2f0/0x2f0"
 	repoId="R_kgDOLJ6JoA"
 	category="Comments"
 	categoryId="DIC_kwDOLJ6JoM4CxQZ1"

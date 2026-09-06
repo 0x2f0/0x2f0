@@ -21,7 +21,7 @@
 #table(
   items: (
     (category: "Programming", text: [HTML, CSS, Javascript, Typescript, React, Nextjs, Tailwindcss, Bash, React Native]),
-    (category: "Tools", text: [Git, Github, Gitea, Linux, Figma]),
+    (category: "Tools", text: [Git, Github, Gitea, Linux, Figma, Neovim]),
   ),
   columns: 2,
 )

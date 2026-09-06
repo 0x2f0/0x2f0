@@ -2,6 +2,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
 @import 'tailwindcss';
 
+@font-face {
+	font-family: dejavu-serif;
+	src: url(/fonts/dejavu-serif/dj-serif.ttf);
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: dejavu-serif;
+	src: url(/fonts/dejavu-serif/dj-serif-bold.ttf);
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: dejavu-serif;
+	src: url(/fonts/dejavu-serif/dj-serif-italic.ttf);
+	font-style: italic;
+}
+
+@font-face {
+	font-family: dejavu-serif;
+	src: url(/fonts/dejavu-serif/dj-serif-bolditalic.ttf);
+	font-weight: bold;
+	font-style: italic;
+}
+
 :root {
 	--background: #f7faff;
 	--foreground: #cecece;
@@ -113,7 +140,7 @@
 	--color-p: var(--p);
 	--color-h: var(--h);
 
-  --font-lora: "lora", serif;
+  --font-lora: dejavu-serif;
   --font-inter: 'Inter', sans-serif;
 }
 
@@ -150,7 +177,6 @@
 
 	p {
 		@apply text-sm font-normal text-p leading-6 mb-6 font-lora;
-
 	}
 
 	ol {
@@ -186,11 +212,6 @@
 	}
 
 	a {
-		/* @apply text-p underline-offset-4 inline-block dark:decoration-blue-300 decoration-blue-500 decoration-1 decoration-wavy underline;
-
-    &:is(h1 > a, h2> a, h3> a, h4> a, h5> a) {
-      @apply no-underline hover:underline
-    } */
 	 @apply dark:text-blue-300 text-blue-400 underline-offset-4 inline-block dark:decoration-blue-300 decoration-blue-500 decoration-1 hover:underline decoration-wavy;
 
     &:is(h1 > a, h2> a, h3> a, h4> a, h5> a, a[role=button]) {

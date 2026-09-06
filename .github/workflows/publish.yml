@@ -1,4 +1,4 @@
-name: Deploy portfolio
+name: update README
 on:
   workflow_dispatch:
   push:
@@ -6,13 +6,8 @@ on:
       - main
 jobs:
   build:
-    name: setup, build and deploy
+    name: check, generate and update
     runs-on: ubuntu-latest
-    env:
-      HOST: ${{ secrets.HOST }}
-      USERNAME: ${{ secrets.USERNAME }}
-      DEPLOY_KEY: ${{ secrets.DEPLOY_USER_SSH_KEY }}
-      RELEASE_DIR: ${{ secrets.SITE_DIR }}/prod
 
     steps:
       - name: pulling repo.
@@ -29,31 +24,6 @@ jobs:
       - name: build
         run: |
           bun run build
-
-      - uses: webfactory/ssh-agent@v0.9.0
-        with: 
-          ssh-private-key: ${{ secrets.DEPLOY_USER_SSH_KEY }}
-
-      - name: Adding server to known host
-        run: | 
-          mkdir -p ~/.ssh
-          ls ~/.ssh
-          ssh-keyscan -H $HOST >> ~/.ssh/known_hosts
-          chmod 600 ~/.ssh/known_hosts
-
-      - name: Copying the files to the server using rsync.
-        run: |
-          echo "Creating Release dir, $RELEASE_DIR"
-
-          rsync \
-           -avz \
-           --delete \
-           --rsync-path="mkdir -p $RELEASE_DIR && rsync -q" \
-           build/ $USERNAME@$HOST:$RELEASE_DIR
-
-      - name: Restart the service
-        run: |
-          ssh $USERNAME@$HOST "systemctl restart portfolio.service"
 
       - name: Commiting the updated file to readme.
         env:

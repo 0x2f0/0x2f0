@@ -1,24 +1,24 @@
-import { type MdsvexOptions } from 'mdsvex';
-import { join } from 'node:path';
-import rehypeAutolinkHeadings, { type Options } from 'rehype-autolink-headings';
-import rehypeExternalLinks from 'rehype-external-links';
-import rehypeSlug from 'rehype-slug';
+import { type MdsvexOptions } from "mdsvex";
+import { join } from "node:path";
+import rehypeAutolinkHeadings, { type Options } from "rehype-autolink-headings";
+import rehypeExternalLinks from "rehype-external-links";
+import rehypeSlug from "rehype-slug";
 
 const defineConfig = (config: MdsvexOptions) => config;
 
 const rehypeAutolinkHeadingsOptions: Options = {
-	behavior: 'wrap'
+	behavior: "wrap",
 };
 
 export default defineConfig({
 	rehypePlugins: [
 		rehypeSlug,
 		[rehypeAutolinkHeadings, rehypeAutolinkHeadingsOptions],
-		rehypeExternalLinks
+		rehypeExternalLinks,
 	],
 	layout: {
-		blogs: join(import.meta.dirname, './src/lib/layouts/blog.svelte'),
-    _:join(import.meta.dirname, './src/lib/layouts/default.svelte')
+		blogs: join(import.meta.dirname, "./src/lib/layouts/blog.svelte"),
+		_: join(import.meta.dirname, "./src/lib/layouts/default.svelte"),
 	},
-	extensions: ['.svx', '.md']
+	extensions: [".svx", ".md"],
 });

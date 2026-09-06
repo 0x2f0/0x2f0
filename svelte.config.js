@@ -1,20 +1,20 @@
-import { mdsvex } from 'mdsvex';
-import adapter from 'svelte-adapter-bun';
-import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
-import mdsvexconfig from './mdsvex.config.ts';
+import { mdsvex } from "mdsvex";
+import adapter from "@sveltejs/adapter-cloudflare";
+import { vitePreprocess } from "@sveltejs/vite-plugin-svelte";
+import mdsvexconfig from "./mdsvex.config.ts";
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
-	extensions: ['.svelte', ...(mdsvexconfig.extensions ?? [])],
+	extensions: [".svelte", ...(mdsvexconfig.extensions ?? [])],
 	kit: {
 		adapter: adapter({
-			strict: false
+			strict: false,
 		}),
 		prerender: {
-			handleMissingId: 'ignore'
-		}
+			handleMissingId: "ignore",
+		},
 	},
-	preprocess: [mdsvex(mdsvexconfig), vitePreprocess()]
+	preprocess: [mdsvex(mdsvexconfig), vitePreprocess()],
 };
 
 export default config;

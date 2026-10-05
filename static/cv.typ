@@ -1,5 +1,5 @@
 
-#let contacts = (
+#let personal_info = (
   name: "Saroj Regmi",
   email: "contact@sarojr.com",
   github: "0x2f0",
@@ -7,11 +7,25 @@
   location: "Bhaktapur, Nepal"
 )
 
-#let resume-header(contacts: contacts ) = {
-  contacts.name
+#let resume-header(contacts: personal_info ) = {
+  stack(dir: ltr, spacing: 1fr,
+  text(contacts.name, 14pt),
+
+stack(dir: ltr, spacing: 10pt,
+  link("https://github.com/"+contacts.github)[ Github],
+  link("https://linkedin.com/in/"+contacts.linkedin)[󰌻 Linkedin],
+  link("mailto:"+contacts.email)[󰇮 Email],
+  link("https://maps.app.goo.gl/cQE4NbGcLP7j7Twv5")[󰍎 #contacts.location]
+ )
+)
 }
 
-#resume-header()
+#set page(
+  header: (
+    resume-header()
+  ),
+  margin: (x: 0.25in, y: 0.5in) // why the fuck are these margins same??? 0.25 in x and 0.5 in y??
+)
 
 // #section-header("Skills")
 // 

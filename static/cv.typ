@@ -1,3 +1,4 @@
+#show link: underline.with(offset: 2pt)
 
 #let personal_info = (
   name: "Saroj Regmi",
@@ -8,24 +9,29 @@
 )
 
 #let resume-header(contacts: personal_info ) = {
-  stack(dir: ltr, spacing: 1fr,
-  text(contacts.name, 14pt),
-
-stack(dir: ltr, spacing: 10pt,
-  link("https://github.com/"+contacts.github)[ Github],
-  link("https://linkedin.com/in/"+contacts.linkedin)[󰌻 Linkedin],
-  link("mailto:"+contacts.email)[󰇮 Email],
-  link("https://maps.app.goo.gl/cQE4NbGcLP7j7Twv5")[󰍎 #contacts.location]
- )
+  align(center)[ #stack(
+    dir: ttb, 
+    spacing: 15pt,
+    text(contacts.name, 16pt),
+    stack(
+      dir: ltr,
+      spacing: 10pt,
+      link("https://github.com/"+contacts.github)[ /#contacts.github],
+      link("https://sarojr.com")[ sarojr.com],
+      link("https://linkedin.com/in/"+contacts.linkedin)[󰌻 /#contacts.linkedin],
+      link("mailto:"+contacts.email)[󰇮  /contact\@sarojr.com],
+      link("https://maps.app.goo.gl/cQE4NbGcLP7j7Twv5")[󰍎 #contacts.location]
+    )
 )
+]
 }
 
 #set page(
-  header: (
-    resume-header()
-  ),
-  margin: (x: 0.25in, y: 0.5in) // why the fuck are these margins same??? 0.25 in x and 0.5 in y??
+  margin: (x: 0.25in, y: 0.25in) // why the fuck are these margins same??? 0.25 in x and 0.5 in y??
 )
+
+#resume-header()
+
 
 // #section-header("Skills")
 // 

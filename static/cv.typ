@@ -74,6 +74,18 @@ stack(
 #resume-header()
 
 #section-header(txt: "Intro")
+#text(
+  [
+    Full-Stack developer with 2+ years of professional, 6+ years of overall development, building and problem solving experience.\
+    Who believes in Opensource, linux and Unix Philosophy.
+    Confident and Outgoing undergraduate student with proven track record of leading teams of different sizes/calibers,
+    Migrating big legacy project into new versions, 
+    Taking ideas into production.
+],
+  10pt,
+  secondary_color
+)
+
 #section-header(txt: "Education")
 #timeline-entry(
   heading-left: "Computer Science (Technical stream)",
@@ -149,3 +161,18 @@ stack(
 )
 
 #section-header(txt: "Honors & Awards")
+#timeline-entry(
+  heading-left: "Winner Coding Olympiad 2081",
+  subheading-left: "Bhairahawa Multiple Campus",  
+  heading-right: "Jan 2025",
+  subheading-right: "Bhairahawa, Nepal",
+  body: stack(
+    dir: ttb,
+    spacing: 15pt,
+    list(
+      [Got placed among 8 selected teams for finals from 18 different],
+      [Got placed first from the 8 selected teams],
+    ),
+    [#emph([Tracks: DSA, Maths, Coding])]
+  )
+)
